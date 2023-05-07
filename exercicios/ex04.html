@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <style>
+        body {
+            font: normal 20pt Arial;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Aprendendo JavaScript</h1>
+
+    <script>
+        nome = window.prompt('Qual é o seu nome?')
+        document.write(`Olá, <strong>${nome}</strong>! Seu nome têm ${nome.length} letras.<br/>`)
+        document.write(`Seu nome em Maiúsculas é: ${nome.toUpperCase()}<br/>`)
+        document.write(`Seu nome em minúsculas é: ${nome.toLowerCase()}<br/>`)
+        salario = 1545.5
+        document.write(`O seu salário deve ser de: ${salario.toFixed(2).replace('.', ',')}<br/>`)
+        document.write(`No Brasil será de: ${salario.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}<br/>`)
+        document.write(`No EUA será de: ${salario.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'})}<br/>`)        
+    </script>
+</body>
+</html>
