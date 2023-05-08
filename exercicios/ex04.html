@@ -23,7 +23,8 @@
         salario = 1545.5
         document.write(`O seu salário deve ser de: ${salario.toFixed(2).replace('.', ',')}<br/>`)
         document.write(`No Brasil será de: ${salario.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}<br/>`)
-        document.write(`No EUA será de: ${salario.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'})}<br/>`)        
+        document.write(`No EUA será de: ${salario.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'})}<br/>`)
+        document.write(`Na EuropatT será de: ${salario.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'})}<br/>`)        
     </script>
 </body>
 </html>
