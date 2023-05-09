@@ -5,10 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript - DOM</title>
+    <style>
+        body {
+            background-color: rgb(68, 125, 199);
+            color: white;
+            font: normal 18pt Arial;
+        }
+    </style>
 </head>
 <body>
     <h1>Iniciando estudos com DOM</h1>
     <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript</p>
     <div>Clique em mim</div>
+    <script>
+        var corpo = window.document.body
+        corpo.style.background = 'black'
+        
+        var p1 = window.document.getElementsByTagName('p')[0] /* Selecionando elemento por MARCA */
+        window.document.write('Está escrito assim: ' + p1.innerText + '<br/>')
+        p1.style.background = 'violet'
+
+        var p2 = window.document.getElementsByTagName('p')[1]
+        window.document.write('Está escrito assim: ' + p2.innerHTML)
+        p2.style.color = 'red'
+
+        // o innerText mostra o texto como ele é; //
+        window.alert(p2.innerText)
+        // o innerHTML mostra o texto do jeito como está no HTML; //
+        window.alert(p2.innerHTML)
+    </script>
 </body>
 </html>
