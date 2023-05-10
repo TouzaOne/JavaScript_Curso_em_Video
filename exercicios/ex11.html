@@ -8,20 +8,22 @@
 </head>
 <body>
     <h1>De onde você é??</h1>
-    Digite o nome do seu país de origem: <input type="text" name="pais" id="pais">
+    Digite o nome do seu país de origem (Brasil ou Estados Unidos): <input type="text" name="pais" id="pais">
     <input type="button" value="Verificar" onclick="verifica()">
     <div id="res"></div>
 
-    <script>
-        var local = window.document.getElementById('pais')
-        var res = window.document.getElementById('res')
-        var lugar = 'Estados Unidos'
+    <script>                
         function verifica() {
+            var local = window.document.getElementById('pais')
+            var res = window.document.getElementById('res')
+            var lugar = (local.value)
             if (lugar == 'Brasil') {
-                res.innerHTML += `<p>Você é estrangeiro!!</p>`
+                res.innerHTML += `<p>Você é Brasileiro!!</p>`
+            } else if (lugar == 'Estados Unidos') {
+                res.innerHTML += `<p>Você é Americano!!</p>`
             } else {
-                res.innerHTML += `<p>Você é cidadão Americano!!</p>`
-            }
+                res.innerHTML += '<p>Resposta inválida!!</p>'
+            }            
         }
     </script>
 </body>
