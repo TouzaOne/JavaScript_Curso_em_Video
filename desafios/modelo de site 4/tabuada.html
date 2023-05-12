@@ -5,22 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>Contador Inteligente</title>
+    <title>Tabuada Interativa</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Vamos Contar? &#x1F914;</h1>
+        <h1>Tabuada</h1>
     </header>
     <section>
         <div id="dados">
-            <p>Início: <input type="number" name="inicio" id="txti"></p>
-            <p>Término:  <input type="number" name="fim" id="txtf"></p>
-            <p>Passo: <input type="number" name="passo" id="txtp"></p>
-            <p><input type="button" value="Contar" onclick="contar()"></p>
+            <p>Número: <input type="number" name="num" id="txtn"><input type="button" value="Gerar Tabuada" onclick="tabuada()"></p>
+            
         </div>
         <div id="res">
-            <p>Preparando a contagem... &#x23F3; &#x231B;</p>
+            <select name="tabuada" id="seltab"></select>
         </div>
     </section>
     <footer>
