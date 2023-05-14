@@ -33,8 +33,11 @@ div {
     padding: 10px;
 }
 
-option {
+select {
     background-color: rgb(182, 234, 238);
+}
+
+option {    
     color: red;
     font-weight: bold;    
 }
