@@ -56,7 +56,7 @@ function finalizar() {
         res.innerHTML += `<p>Ao todo, temos ${tot} números cadastrados.</p>`
         res.innerHTML += `<p>O menor número digitado foi ${menor}.</p>`
         res.innerHTML += `<p>O maior número digitado foi ${maior}.</p>`
-        res.innerHTML += `<p>A soma de todos os valores digitados dá: ${soma}.</p>`
+        res.innerHTML += `<p>A soma de todos os valores digitados é: ${soma}.</p>`
         res.innerHTML += `<p>A média de todos os valores digitados é: ${media}.</p>`
     }
 }
