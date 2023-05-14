@@ -58,5 +58,6 @@ function finalizar() {
         res.innerHTML += `<p>O maior número digitado foi ${maior}.</p>`
         res.innerHTML += `<p>A soma de todos os valores digitados é: ${soma}.</p>`
         res.innerHTML += `<p>A média de todos os valores digitados é: ${media}.</p>`
+        res.innerHTML += '<p>&#x1F609;</p>'
     }
 }
