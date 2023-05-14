@@ -34,8 +34,9 @@ div {
 }
 
 option {
-    background-color: rgb(203, 238, 182);
-    color: darkblue;    
+    background-color: rgb(182, 234, 238);
+    color: red;
+    font-weight: bold;    
 }
 
 footer {
