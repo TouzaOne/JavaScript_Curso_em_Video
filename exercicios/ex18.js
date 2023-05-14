@@ -2,7 +2,8 @@
 
 let num = [5, 8, 2, 9, 4]
 console.log(num)
-num.push(1) // Adiciona um número ao final do vetor
+num[5]= 1 /* Mesmo não existindo o índice 5 vc pode criá-lo dessa forma que o JavaScript entende o que vc quer fazer e cria esse novo índice dando-lhe o valor que vc atribuiu a ele. */
+num.push(3) // Adiciona um número ao final do vetor
 console.log(num)
 num.sort() // Põe os números do vetor em ordem crescente
 console.log(num)
@@ -26,12 +27,12 @@ for (pos in num) {
 console.log(num)
 pos = num.indexOf(8) // indexOf verifica se existe o valor selecionado dentro do vetor em questão, retornando o índice de onde ele se encontra
 console.log(`O valor 8 está na posição ${pos}`)
-pos = num.indexOf(3) // Caso, seja selecionado um valor que não exista dentro do vetor em questão, ele retorna como se ele pudesse estar no índice -1 (supostamente não vísivel)
-console.log(`O valor 3 está na posição ${pos}`)
+pos = num.indexOf(7) // Caso, seja selecionado um valor que não exista dentro do vetor em questão, ele retorna como se ele pudesse estar no índice -1 (supostamente não vísivel)
+console.log(`O valor 7 está na posição ${pos}`)
 // Podemos corrigir essa situação criando uma condição pra isso...
-pos = num.indexOf(3)
+pos = num.indexOf(7)
 if (pos == -1) {
     console.log('O valor não foi encontrado!!')
 } else {
-    console.log(`O valor 3 está na posição ${pos}`)
+    console.log(`O valor 7 está na posição ${pos}`)
 }
