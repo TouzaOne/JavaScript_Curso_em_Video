@@ -64,6 +64,6 @@ footer a:hover {
     color: lawngreen;
 }
 
-footer a::after {
-    content: ;
+footer a:hover::after {
+    content: ' - Clique aqui!!';
 }
