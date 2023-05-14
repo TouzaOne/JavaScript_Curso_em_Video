@@ -34,7 +34,7 @@ div {
 }
 
 select {
-    background-color: rgb(182, 234, 238);
+    background-color: rgb(182, 234, 238);    
 }
 
 option {    
@@ -45,7 +45,7 @@ option {
 footer {
     background-color: black;
     color: white;
-    text-align: center;
+    text-align: center;    
     font-style: italic;
     width: 520px;
     margin: auto;
@@ -53,4 +53,17 @@ footer {
     border-bottom-right-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.61);
     margin-top: -19px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: lawngreen;
+}
+
+footer a::after {
+    content: ;
 }
