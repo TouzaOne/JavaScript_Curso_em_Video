@@ -12,3 +12,10 @@ function saleStetus(status, total) { // Aqui passamos os parametros...
 }
 
 saleStetus('Approved', 30) // Aqui passamos os argumentos correspondem pra cada parametro passado lá em cima.
+
+// Função executando cálculos matemáticos...
+function percentage10(price) {
+    return price - (price * 10/100)
+}
+
+console.log(percentage10(48)) // Chamando a função e exibindo-a direto na tela.
