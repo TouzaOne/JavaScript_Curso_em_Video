@@ -6,7 +6,7 @@ let itemPrice = 3
 let itemAvailable = true
 let itemColor = 'Red'
 
-// Com a utilização de um objeto...
+// Com a utilização de um objeto... Note que é preciso abrir {} para adicionar os elementos.
 let pen = {
     itemName: 'Pen',
     itemPrice: 3,
