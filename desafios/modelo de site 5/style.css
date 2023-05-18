@@ -69,5 +69,5 @@ footer a:hover {
 }
 
 footer a:hover::after {
-    content: ' - Clique aqui!!';
+    content: ' <==> Clique aqui!!';
 }
