@@ -36,7 +36,7 @@ footer a {
 }
 
 footer a:hover {
-    color: lawngreen;
+    color: rgb(0, 193, 252);
 }
 
 footer a:hover::after {
