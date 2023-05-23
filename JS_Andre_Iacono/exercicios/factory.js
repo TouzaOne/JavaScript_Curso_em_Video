@@ -15,5 +15,7 @@ function createBook(title, author, pages) { // factory
 const book1 = createBook('Atomic', 'James', 306)
 const book2 = createBook('Think', 'Napolean', 450)
 
+book1.color = 'White and Gold' // Adicionando propriedades, mesmo fora do objeto
+
 console.log(book1)
 console.log(book2)
