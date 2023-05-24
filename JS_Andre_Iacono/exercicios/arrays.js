@@ -80,3 +80,10 @@ console.log(all)
 // Eu também posso criar uma nova array a partir da junção dessas arrays, sendo necessário pra isso, que eu informe o índice onde vai começar e o que eu quero que não seja incluído nessa nova criação, veja...
 half = all.slice(3, 6)
 console.log(half)
+
+// Eu posso utilizar o JOIN ARRAY que serve para acrescentar algo numa array já fechada, veja o exemplo...
+let clients = ['Andrei', 'Paul', 'Marcel']
+console.log(clients)
+
+newClients = clients.join('a, ')
+console.log(newClients)
