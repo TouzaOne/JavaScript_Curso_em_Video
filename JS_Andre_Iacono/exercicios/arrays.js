@@ -69,3 +69,14 @@ const movies = [
 console.log(movies.find(function(movie){
     return movie.movieName == 'The Matrix'
 }))
+
+// Podemos concatenar várias arrays em uma só, veja o exemplo...
+let numbers = [5, 6, 7, 8]
+let letters = ['a', 'b', 'c', 'd']
+
+all = numbers.concat(letters)
+console.log(all)
+
+// Eu também posso criar uma nova array a partir da junção dessas arrays, sendo necessário pra isso, que eu informe o índice onde vai começar e o que eu quero que não seja incluído nessa nova criação, veja...
+half = all.slice(3, 6)
+console.log(half)
