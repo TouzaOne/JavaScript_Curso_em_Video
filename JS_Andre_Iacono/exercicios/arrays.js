@@ -54,6 +54,12 @@ console.log(friends.sort())
 // Descobrir a quantidade total de elementos existentes dentro da lista...
 console.log(`A lista em questão têm ${friends.length} elementos.`)
 
+// Existem 3 formas de esvaziar uma array, veja a seguir quais são...
+// friends = []
+// friends.length = 0
+friends.splice(0, friends.length)
+console.log(`A lista agora têm ${friends} elementos!!`)
+
 // Podemos localizar um item em uma array de referência (passando as suas referências)...
 const movies = [
     {id: 1, movieName: 'Dejavu'},
