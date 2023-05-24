@@ -90,3 +90,11 @@ console.log(clients)
 
 newClients = clients.join('a, ')
 console.log(newClients)
+
+// Usando o método EVERY dentro de uma array: Ele serve para checar se a condição que vc pediu é TRUE ou FALSE.
+const tempLondon = [18, 13, 8, 2]
+
+const tempPositive = tempLondon.every(function(value){
+    return value >= 0
+})
+console.log(tempPositive)
