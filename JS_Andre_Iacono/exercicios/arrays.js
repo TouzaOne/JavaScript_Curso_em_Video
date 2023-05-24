@@ -25,10 +25,29 @@ console.log(friends)
 
 // Adicionar um elemento novo na última vaga...
 friends.push(3, 2)
-console.log(friends)  
+console.log(friends)
+
+// Podemos localizar um elemento numa array através do seu índice...
+console.log(`O número em questão está localizado no índice: ${friends.indexOf(9)}`)
+
+// Também podemos saber, de modo lógico, se o número pesquisado existe na atual array ou não...
+console.log(`Existe esse número pesquisado na lista? ${friends.includes(5)}`)
+
+// Se o número pesquisado não existir na lista em questão o programa retornará dessa forma...
+console.log(`Existe esse número pesquisado na lista? ${friends.includes(8)}`)
 
 // Colocar os elementos em ordem alfabética ou crescente (se forem números)
 console.log(friends.sort())
 
 // Descobrir a quantidade total de elementos existentes dentro da lista...
 console.log(`A lista em questão têm ${friends.length} elementos.`)
+
+// Podemos localizar um item em uma array de referência (passando as suas referências)...
+const movies = [
+    {id: 1, movieName: 'Dejavu'},
+    {id: 2, movieName: 'Back to the Future'},
+    {id: 3, movieName: 'The Matrix'}
+]
+console.log(movies.find(function(movie){
+    return movie.movieName == 'The Matrix'
+}))
