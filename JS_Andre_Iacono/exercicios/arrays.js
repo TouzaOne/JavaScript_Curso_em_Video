@@ -98,3 +98,15 @@ const tempPositive = tempLondon.every(function(value){
     return value >= 0
 })
 console.log(tempPositive)
+
+// O método FILTER também funciona da mesma forma que o método anterior, porém ele retorna os valores positivos (pois assim a sua condição pediu), deixando de fora da array, os valores negativos...
+const temperLondon = [18, 13, 8, 0, -3, -1]
+
+/*const temperPositive = temperLondon.filter(function(value){
+    return value >= 0
+})
+console.log(temperPositive)*/
+
+// Podemos simplificar esse comando, usando um ARROW FUNCTION, pra isso, tenho que pôr o comando acima entre comentário para não travar o programa...veja...
+const temperPositive = temperLondon.filter(value => value >= 0)
+console.log(temperPositive)
