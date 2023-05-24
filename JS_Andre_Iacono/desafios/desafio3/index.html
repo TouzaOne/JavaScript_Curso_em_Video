@@ -4,12 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Challenge 3</title>
+    <title>Challenge 3 - Simple Calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Challenge nº2</h1>
-    <h2>The result is: <span id="result"></span></h2>
-    <script src="index.js"></script>
+    <div class="wrapper">
+        <h2>Simple Calculator</h2><input id="num-one" name="num-one" type="text"> <input id="num-two" name="num-two" type="text">
+        <br>
+        <input checked id="box1" name="sign-area" type="radio" value="add"><b>+</b> <input id="box2" name="sign-area" type="radio" value="minor"><b>-</b> <input id="box3" name="sign-area" type="radio" value="multiply"><b>*</b> <input id="box4" name="sign-area" type="radio" value="divide"><b>/</b>
+        <br>
+        <button onclick="outcome()" type="button">calculate</button>
+        <h1 id="resultArea"></h1>
+    </div>
+    <script src="index.js">
+
+    </script>
+    
 </body>
 </html>
