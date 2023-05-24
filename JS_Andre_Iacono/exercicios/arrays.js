@@ -51,6 +51,9 @@ console.log(`Existe esse número pesquisado na lista? ${friends.includes(8)}`)
 // Colocar os elementos em ordem alfabética ou crescente (se forem números)
 console.log(friends.sort())
 
+// Revertendo a ordem da array...
+console.log(friends.reverse())
+
 // Descobrir a quantidade total de elementos existentes dentro da lista...
 console.log(`A lista em questão têm ${friends.length} elementos.`)
 
