@@ -22,6 +22,14 @@ function percentage10(price) {
 
 console.log(percentage10(48)) // Chamando a função e exibindo-a direto na tela.
 
+// Podemos utilizar parâmetros DEFAULT para agilizar com mais eficiência e clareza os nossos comandos dentro de uma função... Variáveis que nós já sabemos que o seu valor é fixo, podemos passá-los, já logo, nos parâmetros lá emcima e ocultá-los lá embaixo na hora de passar-mos os argumentos... A isso chamamos de parâmetros DEFAULT... Veja:
+
+function carLoan(loan, rate = 2.9, years = 5) {
+    return (loan * rate / 100 * years) + loan
+}
+
+console.log(`O total pago ao final do financiamento do carro é de: U$${carLoan(20000)}, isso aqui na Inglaterra é claro!!`) // Note que aqui eu só precisei passar o argumento do valor do LOAN, pois os outros eu já havia definido lá emcima...
+
 // Podemos utilizar o objeto ARGUMENTS dentro de uma função... Perceba que ele pega todos os elementos passados nos argumentos lá embaixo e faz o uso para cada um deles como ordenado pelo laço FOR...
 
 function price() {
