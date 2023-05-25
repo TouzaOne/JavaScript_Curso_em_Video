@@ -22,6 +22,16 @@ function percentage10(price) {
 
 console.log(percentage10(48)) // Chamando a função e exibindo-a direto na tela.
 
+// Podemos utilizar o objeto ARGUMENTS dentro de uma função... Perceba que ele pega todos os elementos passados nos argumentos lá embaixo e faz o uso para cada um deles como ordenado pelo laço FOR...
+
+function price() {
+    let total = 0
+    for (value of arguments)
+        total += value
+    return total
+}
+console.log(`O resultado do uso do meu objeto ARGUMENTS é: ${price(10, 20, 30, 40, 50)}`) // aqui são passados os argumentos que queremos usar...
+
 // Function Expression... Que é uma função de expressão, por isso, sem nome.
 
 const car = function() {
