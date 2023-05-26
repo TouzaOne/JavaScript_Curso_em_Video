@@ -1,7 +1,13 @@
 
 function formatMoney(value) {
+    value = Math.ceil(value * 100) / 100 // arredonda pra cima a última casa decimal, evitando, assim, que o garçom fique no prejuízo.
     value = value.toFixed(2)
     return '$' + value
+}
+
+function formatSplit(value) {
+    if (value == 1) return value + ' person'
+    return value + ' people'
 }
 
 function update() {
@@ -16,6 +22,6 @@ function update() {
     document.getElementById('tipPercent').innerHTML = tipPercent + '%'
     document.getElementById('tipValue').innerHTML = formatMoney(tipValue)
     document.getElementById('totalWithTip').innerHTML = formatMoney(billTotal)
-    document.getElementById('splitValue').innerHTML = split + ' person'
+    document.getElementById('splitValue').innerHTML = formatSplit(split)
     document.getElementById('billEach').innerHTML = formatMoney(billTotal / split)
 }
