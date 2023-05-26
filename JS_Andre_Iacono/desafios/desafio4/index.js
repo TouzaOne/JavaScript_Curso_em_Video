@@ -9,4 +9,8 @@ function update() {
 
     document.getElementById('tipPercent').innerHTML = tipPercent + '%'
     document.getElementById('tipValue').innerHTML = '$'+ tipValue
+    document.getElementById('totalWithTip').innerHTML = '$' + billTotal
+    document.getElementById('splitValue').innerHTML = split + ' person'
+    document.getElementById('billEach').innerHTML = billTotal / split
+
 }
