@@ -17,10 +17,16 @@ function compareNumbers() {
     const userNumber = Number(document.getElementById('inputBox').value)
     userNumbers.push(' ' + userNumber)
     document.getElementById('guesses').innerHTML = userNumbers
+    
+    if (attempts < maxguesses) {        
 
-    if (attempts < maxguesses) {    
-
-        if (userNumber > computerNumber) {
+        if (userNumber > 100) {
+            document.getElementById('textOutput').innerHTML = 'Number Invalid! Digit a number between 1 - 100...'
+            document.getElementById('inputBox').value = ''
+            attempts++
+            document.getElementById('attempts').innerHTML = attempts
+        }
+        else if (userNumber > computerNumber) {
             document.getElementById('textOutput').innerHTML = 'Your number is too High!'
             document.getElementById('inputBox').value = ''
             attempts++
@@ -31,7 +37,7 @@ function compareNumbers() {
             document.getElementById('inputBox').value = ''
             attempts++
             document.getElementById('attempts').innerHTML = attempts
-        }
+        }        
         else {
             document.getElementById('textOutput').innerHTML = 'Congratulations!! YOU WON!!!'
             attempts++
