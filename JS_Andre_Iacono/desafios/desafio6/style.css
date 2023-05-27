@@ -15,12 +15,13 @@
     width: 90vw;
     margin: 0 auto;
     background: radial-gradient(var(--gradient1), var(--gradient2));
+    background-color: #5ed68a;
     padding: 4rem;
   }
   
   main {
     text-align: center;
-    background: var(--background);
+    background: var(--background);    
     border: solid var(--red);
     border-width: 8px 8px 8px 8px;
     min-height: 40vh;
@@ -96,3 +97,19 @@
       width: 60vw;
     }
   }
+
+  footer {
+    text-align: center;
+  }
+
+  footer p a {    
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: red;
+    text-decoration: underline overline;
+  }
+
+  
