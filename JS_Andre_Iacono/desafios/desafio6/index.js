@@ -4,6 +4,11 @@ let userNumbers = []
 let attempts = 0
 let maxguesses = 10
 
+
+function newGame() {
+    window.location.reload()
+}
+
 function init() {
     computerNumber = Math.floor(Math.random() * 100 + 1)
 }
@@ -31,9 +36,11 @@ function compareNumbers() {
             document.getElementById('textOutput').innerHTML = 'Congratulations!! YOU WON!!!'
             attempts++
             document.getElementById('attempts').innerHTML = attempts
+            document.getElementById('inputBox').setAttribute('Readonly', 'Readonly')
         }
     }
     else {
         document.getElementById('textOutput').innerHTML = 'You Lose!! The computer number was: ' + computerNumber
+        document.getElementById('inputBox').setAttribute('Readonly', 'Readonly')
     }
 }
