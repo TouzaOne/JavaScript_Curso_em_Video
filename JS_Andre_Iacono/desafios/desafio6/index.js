@@ -23,25 +23,29 @@ function compareNumbers() {
         if (userNumber > 100) {
             document.getElementById('textOutput').innerHTML = 'Number Invalid! Digit a number between 1 - 100...'
             document.getElementById('inputBox').value = ''
-            attempts++
-            document.getElementById('attempts').innerHTML = attempts
+            //attempts++ (se eu quiser que o número de tentativas seja crescente...) 
+            maxguesses--
+            document.getElementById('attempts').innerHTML = maxguesses//attempts
         }
         else if (userNumber > computerNumber) {
             document.getElementById('textOutput').innerHTML = 'Your number is too High!'
             document.getElementById('inputBox').value = ''
-            attempts++
-            document.getElementById('attempts').innerHTML = attempts
+            //attempts++
+            maxguesses--
+            document.getElementById('attempts').innerHTML = maxguesses//attempts
         }
         else if (userNumber < computerNumber) {
             document.getElementById('textOutput').innerHTML = 'Your number is too Low!'
             document.getElementById('inputBox').value = ''
-            attempts++
-            document.getElementById('attempts').innerHTML = attempts
+            //attempts++
+            maxguesses--
+            document.getElementById('attempts').innerHTML = maxguesses//attempts
         }        
         else {
             document.getElementById('textOutput').innerHTML = 'Congratulations!! YOU WON!!!'
-            attempts++
-            document.getElementById('attempts').innerHTML = attempts
+            //attempts++
+            maxguesses--
+            document.getElementById('attempts').innerHTML = maxguesses//attempts
             document.getElementById('inputBox').setAttribute('Readonly', 'Readonly')
         }
     }
