@@ -50,7 +50,7 @@ function compareNumbers() {
         }
     }
     else {
-        document.getElementById('textOutput').innerHTML = 'You Lose!! The computer number was: ' + computerNumber
+            document.getElementById('textOutput').innerHTML = '\u{1F635} You Losed!! The computer number was: ' + computerNumber
         document.getElementById('inputBox').setAttribute('Readonly', 'Readonly')
     }
 }
