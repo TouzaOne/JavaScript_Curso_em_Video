@@ -15,7 +15,7 @@
     width: 90vw;
     margin: 0 auto;
     background: radial-gradient(var(--gradient1), var(--gradient2));
-    background-color: #5ed68a;
+    background-image: linear-gradient(to top, #49a09d, #5f2c82);    
     padding: 4rem;
   }
   
