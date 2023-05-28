@@ -42,7 +42,7 @@ function compareNumbers() {
             document.getElementById('attempts').innerHTML = maxguesses//attempts
         }        
         else {
-            document.getElementById('textOutput').innerHTML = 'Congratulations!! YOU WON!!!'
+            document.getElementById('textOutput').innerHTML = 'Congratulations!! YOU WON!!! \u{1F913} \u{1F973}'
             //attempts++
             maxguesses--
             document.getElementById('attempts').innerHTML = maxguesses//attempts
