@@ -43,6 +43,10 @@ function compareNumbers() {
         }        
         else {
             document.getElementById('textOutput').innerHTML = 'Congratulations!! YOU WON!!! \u{1F913} \u{1F973}'
+            document.body.style.background = 'white'
+            document.getElementById('main').style.background = 'black'
+            document.getElementById('main').style.color = 'white'
+            document.getElementById('inputBox').style.color = 'white'
             //attempts++
             maxguesses--
             document.getElementById('attempts').innerHTML = maxguesses//attempts
@@ -51,6 +55,7 @@ function compareNumbers() {
     }
     else {
             document.getElementById('textOutput').innerHTML = '\u{1F635} You Losed!! The computer number was: ' + computerNumber
-        document.getElementById('inputBox').setAttribute('Readonly', 'Readonly')
+            document.getElementById('inputBox').setAttribute('Readonly', 'Readonly')
+            document.getElementById('inputBox').style.background = 'red'
     }
 }
