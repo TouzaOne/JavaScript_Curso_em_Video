@@ -92,7 +92,7 @@
     border-radius: 0;
   }
   
-  @media (min-width: 800px) {
+  @media (min-width: 505px) {
     body {
       width: 60vw;
     }
