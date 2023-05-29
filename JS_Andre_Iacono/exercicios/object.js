@@ -22,6 +22,10 @@ pen.itemPrice = 4.5
 
 console.log(pen)
 
-// Também posso escolher o que eu quero que seja exibido na tela...
+// Também posso escolher o que eu quero que seja exibido na tela... (forma mais atual e mais usada hoje em dia)
 console.log(pen.itemAvailable)
 console.log(pen.itemName, pen.itemPrice)
+
+// Mas, eu também posso exibir na tela da seguinte forma... (não muito usado hoje em dia)
+console.log(pen['itemPrice'])
+console.log(pen['itemColor'])
