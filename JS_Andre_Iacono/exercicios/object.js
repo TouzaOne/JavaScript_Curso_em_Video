@@ -83,3 +83,9 @@ const nascimento = {
 }    
     
 console.log(`${nascimento.nome} nasceu em ${nascimento.exibir()} no estado do Rio de Janeiro!`)
+
+nascimento.nome = 'Darla'
+nascimento.mes = 7
+
+console.log(`${nascimento.nome} nasceu em ${nascimento.exibir()} no estado do Rio de Janeiro!`)
+
