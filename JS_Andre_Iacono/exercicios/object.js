@@ -70,3 +70,16 @@ const cliente = {
 }
 
 console.log(`A cliente ${cliente.nome} que mora com os seus filhos: ${cliente.nomeFilhos[1]} e ${cliente.nomeFilhos[2]} no endereço: ${cliente.endereco.logradouro}, ${cliente.endereco.numero}, tendo como ponto de referência: ${cliente.endereco.pontosRef[2]}`)
+
+// Exercício de fixação de conteúdo...
+const nascimento = {
+    nome: 'Tiago',
+    dia: 24,
+    mes: 03,
+    ano: 1984,
+    exibir: function () {
+        return `${this.dia}/${this.mes}/${this.ano}`
+    }
+}    
+    
+console.log(`${nascimento.nome} nasceu em ${nascimento.exibir()} no estado do Rio de Janeiro!`)
