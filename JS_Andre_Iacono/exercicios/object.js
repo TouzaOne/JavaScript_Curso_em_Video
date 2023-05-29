@@ -35,7 +35,7 @@ const produto = {
     nome: 'iPad',
     preco: 5600,
     desconto: 0.25,
-    precoComDesconto: function() {
+    precoComDesconto: function() { // nesse caso, temos que referenciar os atributos à eles mesmos, utilizando pra isso, o atributo THIS...
         return this.preco * (1 - this.desconto)
     }
 }
