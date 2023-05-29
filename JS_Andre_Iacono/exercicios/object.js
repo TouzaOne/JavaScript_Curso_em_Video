@@ -42,3 +42,31 @@ const produto = {
 
 console.log(produto.nome)
 console.log(produto.precoComDesconto())
+
+// No JavaScript, eu também posso criar novos elementos dentro do meu objeto de forma dinâmica, ou seja, sem precisar acessar o objeto em si... Veja:
+
+produto.color = 'Silver'
+produto.screen = 'FullHD'
+
+console.log(produto)
+
+// Podemos também construir, dentro de um mesmo objeto, vários outros objetos com arrays e assim por diante... à isso dá-se o nome de FORMA LITERAL... Veja:
+
+const cliente = {
+    codigo: 16532,
+    nome: 'Ana',
+    vip: true,
+    endereco: {
+        logradouro: 'Rua ABC',
+        numero: 123,
+        complemento: 'Apt 101 Bloco B',
+        pontosRef: [
+            'Próximo ao Hospital X',
+            'Atrás da Igreja Y',
+            'Em frente a rodoviária'
+        ]
+    },
+    nomeFilhos: ['Bia', 'Carlos', 'Gabriel']    
+}
+
+console.log(`A cliente ${cliente.nome} que mora com os seus filhos: ${cliente.nomeFilhos[1]} e ${cliente.nomeFilhos[2]} no endereço: ${cliente.endereco.logradouro}, ${cliente.endereco.numero}, tendo como ponto de referência: ${cliente.endereco.pontosRef[2]}`)
