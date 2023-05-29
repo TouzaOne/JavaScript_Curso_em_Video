@@ -33,11 +33,12 @@ console.log(pen['itemColor'])
 // Utilizando um método (ou função) dentro de um objeto...
 const produto = {
     nome: 'iPad',
-    prerco: 5600,
-    desconto: 0.15,
+    preco: 5600,
+    desconto: 0.25,
     precoComDesconto: function() {
-        return preco * (1 - desconto);
+        return this.preco * (1 - this.desconto)
     }
 }
 
+console.log(produto.nome)
 console.log(produto.precoComDesconto())
