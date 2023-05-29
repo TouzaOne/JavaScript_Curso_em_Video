@@ -29,3 +29,15 @@ console.log(pen.itemName, pen.itemPrice)
 // Mas, eu também posso exibir na tela da seguinte forma... (não muito usado hoje em dia)
 console.log(pen['itemPrice'])
 console.log(pen['itemColor'])
+
+// Utilizando um método (ou função) dentro de um objeto...
+const produto = {
+    nome: 'iPad',
+    prerco: 5600,
+    desconto: 0.15,
+    precoComDesconto: function() {
+        return preco * (1 - desconto);
+    }
+}
+
+console.log(produto.precoComDesconto())
