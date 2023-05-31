@@ -9,3 +9,22 @@ function CreateBook(title, author, pages) {
 const book1 = new CreateBook('Atomic', 'James', 306)
 
 console.log(book1)
+
+// Mais um exemplo...
+
+function Data(dia = 24, mes = 3, ano = 1984) {
+    this.day = dia;
+    this.mounth = mes;
+    this.year = ano;
+    this.exibir = function() {
+        return `${this.day}/${this.mounth}/${this.year}`
+    }
+}
+
+const d1 = new Data()
+const d2 = new Data(this.day, 7, this.year)
+const d3 = new Data(9, 7, 2010)
+
+console.log(`Tiago nasceu em: ${d1.exibir()}`)
+console.log(`Darla nasceu em: ${d2.exibir()}`)
+console.log(`Pedro nasceu em: ${d3.exibir()}`)
