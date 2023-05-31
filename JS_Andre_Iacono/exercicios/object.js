@@ -109,3 +109,23 @@ const d3 = criarData(09, 07, 2010)
 console.log(d1.exibir())
 console.log(d2.exibir())
 console.log(d3.exibir())
+
+// Simplificando um pouco o código de cima, temos...
+
+function criarData(dia, mes, ano) {
+    return {
+        dia,
+        mes,
+        ano,
+        exibir() {
+            return `${this.dia}/${this.mes}/${this.ano}`
+        }
+    }
+}
+const d4 = criarData(24, 3, 1984)
+const d5 = criarData(24, 7, 1984)
+const d6 = criarData(9, 7, 2010)
+
+console.log(d1.exibir())
+console.log(d2.exibir())
+console.log(d3.exibir())
