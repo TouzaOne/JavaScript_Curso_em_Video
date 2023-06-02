@@ -14,10 +14,10 @@ console.log(book1)
 
 function Data(dia = 24, mes = 3, ano = 1984) {
     this.day = dia;
-    this.mounth = mes;
+    this.month = mes;
     this.year = ano;
     this.exibir = function() {
-        return `${this.day}/${this.mounth}/${this.year}`
+        return `${this.day}/${this.month}/${this.year}`
     }
 }
 
