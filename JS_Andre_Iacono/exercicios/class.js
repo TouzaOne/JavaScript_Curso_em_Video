@@ -1,13 +1,13 @@
 // Dentro do JavaScript podemos usar um conceito que vem de outras linguagens de programação que é o CLASS (classe), que nada mais é que uma função construtora, ou seja, têm o mesmo princípio do CONSTRUCTOR.
 
 class Data { // Podemos considerar como a "planta da casa"
-    constructor(day = 1, mounth = 1, year = 1970) {
+    constructor(day = 1, month = 1, year = 1970) {
         this.day = day,
-        this.mounth = mounth,
+        this.month = month,
         this.year = year
     }
     exibir() {
-        return `${this.day}/${this.mounth}/${this.year}`
+        return `${this.day}/${this.month}/${this.year}`
     }
 }
 
@@ -15,7 +15,7 @@ const d1 = new Data()
 console.log(d1)
 
 d1.day = 24
-d1.mounth = 3
+d1.month = 3
 d1.year = 1984
 console.log(d1)
 console.log(d1.exibir())
@@ -34,7 +34,7 @@ console.log(d3)
 console.log(d3.exibir())
 
 d1.day = 24
-d1.mounth = 3
+d1.month = 3
 d1.year = 1984
 console.log(d1)
 console.log(d1.exibir())
