@@ -32,3 +32,9 @@ console.log(d2.exibir())
 const d3 = new Data(31, 5, 2023) // Dia em que estou aprendendo esse conteúdo...
 console.log(d3)
 console.log(d3.exibir())
+
+d1.day = 24
+d1.mounth = 3
+d1.year = 1984
+console.log(d1)
+console.log(d1.exibir())
