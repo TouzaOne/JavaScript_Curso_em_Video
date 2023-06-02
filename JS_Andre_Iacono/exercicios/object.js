@@ -53,7 +53,7 @@ console.log(produto)
 // Podemos também construir, dentro de um mesmo objeto, vários outros objetos com arrays e assim por diante... à isso dá-se o nome de FORMA LITERAL... Veja:
 
 const cliente = {
-    codigo: 16532,
+    codigo: 1654,
     nome: 'Ana',
     vip: true,
     endereco: {
