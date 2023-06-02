@@ -33,8 +33,6 @@ const d3 = new Data(31, 5, 2023) // Dia em que estou aprendendo esse conteúdo..
 console.log(d3)
 console.log(d3.exibir())
 
-d1.day = 24
-d1.month = 3
-d1.year = 1984
-console.log(d1)
-console.log(d1.exibir())
+const d4 = new Data(1, 6, 2023) // Dia em que o Flamengo meteu 2x0 no flu..kkkk
+console.log(d4)
+console.log(d4.exibir())
