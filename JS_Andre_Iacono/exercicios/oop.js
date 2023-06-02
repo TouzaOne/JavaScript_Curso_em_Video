@@ -19,4 +19,5 @@ const book = {
     }
 }
 
+console.log(book)
 book.printBook()
