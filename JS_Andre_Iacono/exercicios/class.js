@@ -35,4 +35,4 @@ console.log(d3.exibir())
 
 const d4 = new Data(1, 6, 2023) // Dia em que o Flamengo meteu 2x0 no flu..kkkk
 console.log(d4)
-console.log(d4.exibir())
+console.log(`Dia em que o Flamengo eliminou o flu na Copa do Brasil: ${d4.exibir()}`)
