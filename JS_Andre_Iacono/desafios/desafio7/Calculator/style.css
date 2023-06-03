@@ -1,0 +1,51 @@
+body {
+   background-color: rgb(130, 159, 158); 
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+   padding: 70px;
+}
+
+h1 {
+    font-size: 45px;
+    color: rgb(228, 22, 36);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    letter-spacing: 25px;
+    text-shadow: 1px 1px;
+    margin-bottom: 70px;
+}
+
+p {
+   font-size: 30px; 
+   margin-bottom: 70px;
+   letter-spacing: 10px;
+}
+
+input, select {
+    font-size: 30px;
+    padding: 10px 10px;
+    border-radius: 15px;
+    border: 1px solid rgb(198, 84, 84);
+    margin: 10px;
+}
+
+button {
+    background-color: rgb(133, 51, 204);
+    color: white;
+    border: none;
+    padding: 19px 18px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+#result {
+    font-size: 45px;
+    color: rgb(154, 7, 152);
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 20px;
+    letter-spacing: 5px;
+}
