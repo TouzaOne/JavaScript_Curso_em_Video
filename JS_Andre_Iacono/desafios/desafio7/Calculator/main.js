@@ -15,7 +15,7 @@ calculateButton.addEventListener('click', function(){
     switch (op) {
         case '+':
             result = num1 + num2
-            break;
+            break
         case '-':
             result = num1 - num2
             break
@@ -27,11 +27,8 @@ calculateButton.addEventListener('click', function(){
             break
         default:
             result = 'Invalid Operator!!'
-            break;
+            break
     }
 
     resultDiv.innerHTML =`The result is: ${result}`
-
-
-
 })
