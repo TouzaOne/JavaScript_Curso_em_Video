@@ -17,3 +17,10 @@ input, button {
     font-weight: bold;
     margin-top: 20px;
 }
+
+#listput {
+    font-size: 24px;
+    color: blue;
+    font-weight: bold;
+    margin-top: 20px;
+}
