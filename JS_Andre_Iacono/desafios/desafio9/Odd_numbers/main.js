@@ -12,7 +12,7 @@ function showEvenNumbers() {
     let listput = [0]
 
     while (i <= end) {
-        if (i % 2 == 0) {
+        if (i % 2 !== 0) {
         output = output + i + ' '         
         outputDiv.innerHTML = output        
         }        
