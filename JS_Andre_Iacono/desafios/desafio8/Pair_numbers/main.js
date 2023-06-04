@@ -16,9 +16,11 @@ function showEvenNumbers() {
         output = output + i + ' '         
         outputDiv.innerHTML = output        
         }        
-        i++ 
-        listput = output
-        listPutDiv.innerHTML = `A sequência têm ${listput.length} números pares`
+        i++         
     }
+
+    // Atenção: Adquirir mais conhecimento para corrigir esse erro abaixo!!
     
+    listput = output         
+    listPutDiv.innerHTML = `A sequência têm ${listput.length / 3} números pares`    
 }
