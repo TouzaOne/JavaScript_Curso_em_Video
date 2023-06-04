@@ -11,16 +11,16 @@ function showEvenNumbers() {
     let output = 0    
     let listput = [0]
 
-    while (i <= end) {
+    do {
         if (i % 2 !== 0) {
         output = output + i + ' '         
         outputDiv.innerHTML = output        
         }        
         i++         
-    }
+    } while (i <= end)
 
     // Atenção: Adquirir mais conhecimento para corrigir esse erro abaixo!!
 
     listput = output         
-    listPutDiv.innerHTML = `A sequência têm ${listput.length / 3} números pares`    
+    listPutDiv.innerHTML = `A sequência têm ${listput.length / 3} números ímpares`    
 }
