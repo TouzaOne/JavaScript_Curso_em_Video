@@ -7,11 +7,8 @@ checkNumber.addEventListener('click', function() {
     
     if (number >= 1 && number <= 10) {
         resultNumber.innerHTML = 'The number is valid!!'
-    } else if (number < 1) {
+    } else if (number < 1 || number > 10) {
         resultNumber.innerHTML = 'The number is invalid!!'
-    } else if (number > 10) {
-        resultNumber.innerHTML = 'The number is invalid!!'
-    }
-
+    } 
     num.value = ''
 })
