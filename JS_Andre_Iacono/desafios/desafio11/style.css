@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 30px;
+}
+
+p {
+    margin: 10px;
+    font-size: 24px;
+    color: blue;
+    font-weight: bolder;
+}
+
+input, button {
+    margin: 10px;
+    font-size: 24px;
+    border-radius: 5px;
+}
+
+#check {
+    font-size: 24px;
+    color: red;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#result {
+    font-size: 30px;
+    color: blue;
+    font-weight: bolder;
+    margin-top: 30px;
+}
