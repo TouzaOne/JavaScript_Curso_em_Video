@@ -1,3 +1,26 @@
 .container {
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cont1 {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background-color: lightskyblue;
+    border: 5px solid black;
+    border-bottom: 10px solid red;
+    border-left: 10px solid red;
+}
+
+.cont2 {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background-color: lightskyblue;
+    border: 5px solid black;
+    border-top: 10px dashed red;
+    border-right: 10px dashed red;
 }
