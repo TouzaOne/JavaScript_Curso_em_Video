@@ -24,3 +24,20 @@
     border-top: 10px dashed red;
     border-right: 10px dashed red;
 }
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    color: lawngreen;
+}
+
+footer a:hover::after {
+    content: ' <==> Clique aqui!!';
+}
