@@ -64,7 +64,7 @@ footer a {
 }
 
 footer a:hover {
-    color: lawngreen;
+    color: red;
 }
 
 footer a:hover::after {
