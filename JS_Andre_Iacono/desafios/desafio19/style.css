@@ -6,7 +6,7 @@
 
 body {
     font-family: cursive;
-    background-color: #f2f2f2;
+    background-color: #c0bbbb;
 }
 
 .container {
@@ -64,7 +64,7 @@ footer a {
 }
 
 footer a:hover {
-    color: red;
+    color: rgba(255, 0, 0, 0.589);
 }
 
 footer a:hover::after {
