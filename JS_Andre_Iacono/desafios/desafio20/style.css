@@ -5,11 +5,14 @@
 h1 {
     font-size: 3em;
     margin-bottom: 0.5em;
+    color: blueviolet;
+    text-decoration: underline;
 }
 
 #display {
     font-size: 5em;
     margin-bottom: 0.5em;
+    color: blue;
 }
 
 button {
