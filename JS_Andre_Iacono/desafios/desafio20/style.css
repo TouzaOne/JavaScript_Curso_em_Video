@@ -38,7 +38,7 @@ footer a {
 }
 
 footer a:hover {
-    color: rgba(255, 0, 0, 0.589);
+    color: blue;
 }
 
 footer a:hover::after {
