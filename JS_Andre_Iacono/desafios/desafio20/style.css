@@ -26,3 +26,19 @@ body {
     background-color: burlywood;
 }
 
+footer {
+    text-align: center;
+}
+
+footer a {
+    text-decoration: transparent;
+    color: black;
+}
+
+footer a:hover {
+    color: rgba(255, 0, 0, 0.589);
+}
+
+footer a:hover::after {
+    content: ' <==> Clique aqui!!';
+}
