@@ -4,7 +4,7 @@ const result = document.getElementById('result');
 
 function countLetters() {
     const text = textInput.value;
-    const count = text.lenght;
+    const count = text.length;
     result.textContent = `The text contains ${count} letters.`;
 }
 
