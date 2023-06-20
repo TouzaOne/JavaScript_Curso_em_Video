@@ -8,8 +8,9 @@ body {
 }
 
 input, button {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-size: 16px;
+    background-color: bisque;
 }
 
 #result {
