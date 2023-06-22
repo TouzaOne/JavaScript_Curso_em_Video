@@ -30,7 +30,7 @@ footer a {
 }
 
 footer a:hover {
-    color: red;
+    color: blue;
 }
 
 footer a:hover::after {
