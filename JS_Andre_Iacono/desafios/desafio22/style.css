@@ -13,6 +13,7 @@ input, button {
     background-color: cornflowerblue;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
+    padding: 10px;
 }
 
 #result {
@@ -21,6 +22,7 @@ input, button {
     color: black;
     text-decoration: underline;
     font-family: cursive;
+    
 }
 
 footer {
