@@ -4,7 +4,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: navajowhite;
+    background-image: linear-gradient(violet, lightgreen);
 }
 
 input, button {
@@ -13,8 +13,7 @@ input, button {
     background-color: cornflowerblue;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
-    color: white;
-    
+    color: white;    
     border-radius: 5px;
 }
 
