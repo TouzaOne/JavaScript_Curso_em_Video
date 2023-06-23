@@ -12,6 +12,7 @@ input, button {
     font-size: 16px;
     background-color: cornflowerblue;
     font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
 }
 
 #result {
