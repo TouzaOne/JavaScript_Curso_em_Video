@@ -10,7 +10,7 @@ body {
 input, button {
     margin-bottom: 20px;
     font-size: 16px;
-    background-color: cornflowerblue;
+    background-color: rgba(100, 148, 237, 0.596);
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
     color: white;    
