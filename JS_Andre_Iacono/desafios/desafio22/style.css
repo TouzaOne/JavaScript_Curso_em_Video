@@ -11,6 +11,7 @@ input, button {
     margin-bottom: 20px;
     font-size: 16px;
     background-color: cornflowerblue;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #result {
