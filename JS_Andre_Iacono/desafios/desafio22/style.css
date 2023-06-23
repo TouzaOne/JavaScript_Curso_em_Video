@@ -13,6 +13,7 @@ input, button {
     background-color: cornflowerblue;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
+    color: white;
     padding: 10px;
 }
 
