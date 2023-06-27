@@ -19,7 +19,7 @@ input, button {
 
 #result {
     font-size: 20px;
-    font-weight: bold;
+    font-weight: bolder;
     color: black;
     text-decoration: underline;
     font-family: cursive;
