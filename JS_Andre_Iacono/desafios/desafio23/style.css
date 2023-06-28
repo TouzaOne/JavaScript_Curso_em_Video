@@ -35,3 +35,21 @@ body {
 .sharing-button:hover {
     opacity: 0.8;
 }
+
+footer {
+    margin-top: 180px;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: transparent;
+    color: red;
+}
+
+footer a:hover {
+    color: blue;
+}
+
+footer a:hover::after {
+    content: ' <==> Clique aqui!!';
+}
