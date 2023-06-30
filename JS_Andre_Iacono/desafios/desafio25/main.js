@@ -5,5 +5,11 @@ calculateButton.addEventListener('click', function() {
     const loanTerm = document.getElementById('loanTerm').value;
     const interestRate = document.getElementById('interestRate').value;
 
+    const loanAmount = carPrice - downPayment;
+    const monthlyInterestRate = (interestRate/100) / 12;
+    const numberOfPayments = loanTerm;
+    const monthlyPayment = (loanAmount * monthlyInterestRate) / (1 - Math.pow(1 + monthlyInterestRate, -numberOfPayments));
+
     
+
 })
