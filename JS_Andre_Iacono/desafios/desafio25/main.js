@@ -10,6 +10,7 @@ calculateButton.addEventListener('click', function() {
     const numberOfPayments = loanTerm;
     const monthlyPayment = (loanAmount * monthlyInterestRate) / (1 - Math.pow(1 + monthlyInterestRate, -numberOfPayments));
 
-    
+    const result = document.getElementById('result');
+    result.textContent = `Monthly payment: $${monthlyPayment.toFixed(2)}`;
 
-})
+});
