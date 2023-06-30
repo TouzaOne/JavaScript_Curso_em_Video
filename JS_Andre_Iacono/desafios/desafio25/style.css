@@ -1,6 +1,6 @@
 body {
     background-color: bisque;
-    text-align: center;
+    
     
 }
 
@@ -12,12 +12,17 @@ body {
     background-color: cadetblue;
     border: 2px solid;
     padding: 15px;
+    
 }
 
 label {
     color: white;
     font-size: 17px;
     margin: 10px;
+}
+
+button {
+    margin-top: 10px;
 }
 
 p {
