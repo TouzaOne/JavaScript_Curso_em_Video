@@ -85,5 +85,12 @@ body {
 }
 
 .task span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.task button {
+    background-color: #6583e5;
     
 }
