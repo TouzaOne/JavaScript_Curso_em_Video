@@ -62,3 +62,11 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
+#tasks {
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+    background-color: #ffffff;
+    padding: 30px 20px;
+    margin-top: 10px;
+}
