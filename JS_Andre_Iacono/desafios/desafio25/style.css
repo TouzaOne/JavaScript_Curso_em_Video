@@ -1,6 +1,6 @@
 body {
     background-color: bisque;
-    
+    height: 100vh;
     
 }
 
@@ -8,8 +8,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 450px;
+    width: 40%;
+    top: 50%;
+    left: 50%;
     position: absolute;
+    transform: translate(-50%, -50%);
     background-color: cadetblue;
     border: 2px solid;
     padding: 15px;
@@ -33,7 +36,7 @@ p {
 }
 
 footer {
-    margin-top: 200px;
+    
     text-align: center;
 }
 
