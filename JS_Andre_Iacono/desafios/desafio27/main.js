@@ -65,5 +65,12 @@ function calculate(firstOperand, secondOperand, operator) {
 
 function resetCalculator() {
     calculator.displayValue = '0';
-    
+    calculator.firstOperand = null;
+    calculator.waitingForSecondOperand = false;
+    calculator.operator = null;
+}
+
+function updateDisplay() {
+    const display = document.querySelector('.calculator-screen');
+    display.value = calculator.displayValue;
 }
