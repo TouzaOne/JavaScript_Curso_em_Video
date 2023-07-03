@@ -29,5 +29,28 @@ function inputDecimal(dot) {
 }
 
 function handleOperator(nextOperator) {
-    
+    const { firstOperand, displayValue, operator } = calculator
+    const inputValue = parseFloat(displayValue);
+
+    if (operator && calculator.waitingForSecondOperand) {
+        calculator.operator = nextOperator;
+        return;
+    }
+
+    if (firstOperand == null && !isNaN(inputValue)) {
+        calculator.firstOperand = inputValue;
+    } else if (operator) {
+        const result = calculate(firstOperand, inputValue, operator);
+        calculator.displayValue = `${parseFloat(result.toFixed(7))}`;
+        calculator.firstOperand = result;
+    }
+
+    calculator.waitingForSecondOperand = true;
+    calculator.operator = nextOperator;
+}
+
+function calculate(firstOperand, secondOperand, operator) {
+    if (operator === '+') {
+        
+    }
 }
