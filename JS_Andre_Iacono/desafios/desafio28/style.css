@@ -19,7 +19,7 @@
 }
 
 .close {
-    color: black;
+    color: white;
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -30,4 +30,8 @@
     color: #000;
     text-decoration: none;
     cursor: pointer;
+}
+
+h2, p {
+    color: white;
 }
