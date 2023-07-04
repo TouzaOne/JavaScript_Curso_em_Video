@@ -6,3 +6,7 @@ openModalButton.addEventListener('click', function() {
     modal.style.display = 'block'; // show the modal
 });
 
+closeModalButton.addEventListener('click', function() {
+    modal.style.display = 'none'; // hide the modal
+});
+
