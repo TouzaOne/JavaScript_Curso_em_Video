@@ -10,3 +10,8 @@ closeModalButton.addEventListener('click', function() {
     modal.style.display = 'none'; // hide the modal
 });
 
+window.addEventListener('click', function(event) {
+    if (event.target == modal) {
+        modal.style.display = 'none'; // hide the modal when the user clicks outside of it.
+    }
+});
