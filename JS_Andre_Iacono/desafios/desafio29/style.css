@@ -30,5 +30,22 @@ h1 {
 }
 
 input {
-    
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    margin: 5px auto;
+    outline: 0;    
+}
+
+#original-currency-amount {
+    padding-left: 50px;
+}
+
+button {
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #00539CFF;
+    font-family: 'Sansita Swashed', cursive;
 }
