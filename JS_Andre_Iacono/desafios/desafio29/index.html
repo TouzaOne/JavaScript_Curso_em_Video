@@ -120,12 +120,20 @@
             <option value="TRY">TRY</option>
             <option value="TWD">TWD</option>
             <option value="UAH">UAH</option>
-            <option value="USD" selected>USD</option>
+            <option value="USD">USD</option>
             <option value="UYU">UYU</option>
             <option value="VND">VND</option>
             <option value="ZAR">ZAR</option>
         </select>
     </div>
+    <p class="exchange">
+        Exchange Rate:
+        <input type="text" id="exchange-rate">
+    </p>
+    <button id="exchange_button">Exchange</button>
+    <p id="output-text">
+        <span id="from"></span> converted to <span id="to"></span>
+    </p>
     <script src="main.js"></script>
 </body>
 </html>
