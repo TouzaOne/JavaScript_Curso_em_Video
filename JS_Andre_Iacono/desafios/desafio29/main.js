@@ -29,4 +29,6 @@ function calculate() {
     })
 }
 
-document
+document.getElementById('exchange_button').addEventListener('click', () => {
+    calculate();
+});
