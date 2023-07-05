@@ -8,7 +8,7 @@ var output_from = document.getElementById('from');
 var output_to = document.getElementById('to');
 
 exchange.addEventListener('click', ()=> {
-    [from_currency.value, to_currency.value] = [to_currency.value, from_currency];
+    [from_currency.value, to_currency.value] = [to_currency.value, from_currency.value];
     calculate();
 })
 
