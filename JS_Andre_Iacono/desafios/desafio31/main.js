@@ -19,5 +19,13 @@ function calculate() {
         category = 'Normal Weight';
         result.style.color = '#0be881';
     }
-    else if ()
+    else if (bmi >= 25 && bmi <= 29.9) {
+        category = 'Overweight';
+        result.style.color = '#ff884d';
+    }
+    else {
+        category = 'Obese';
+        result.style.color = 'red';
+    }
+    document.getElementById('category').textContent = category;
 }
