@@ -25,3 +25,17 @@ body {
     box-shadow: 25px 25px 30px rgba(0, 0, 0, 0.15);
 }
 
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.row span {
+    font-weight: 500;
+}
+
+input [type='range'] {
+    
+}
