@@ -1,3 +1,7 @@
+body {
+    background-color: #5ab1c0;
+}
+
 .container {
     text-align: center;
 }
@@ -5,8 +9,11 @@
 h1 {
     font-size: 3em;
     margin-bottom: 0.5em;
+    color: white;
 }
 
 #clock {
     font-size: 5em;
+    color: blueviolet;
+    text-decoration: overline underline;
 }
