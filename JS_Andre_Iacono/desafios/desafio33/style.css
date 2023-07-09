@@ -17,3 +17,8 @@ body {
     background: #AA57CC;
 }
 
+::selection {
+    color: #fff;
+    background: rgb(170, 87, 204, 0.8);
+}
+
