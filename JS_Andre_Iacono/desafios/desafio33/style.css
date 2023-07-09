@@ -56,3 +56,11 @@ header p {
     transition: 0.1s ease;
 }
 
+.inputs input::placeholder {
+    color: #999999;
+}
+
+.inputs input:focus {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.13);
+}
+
