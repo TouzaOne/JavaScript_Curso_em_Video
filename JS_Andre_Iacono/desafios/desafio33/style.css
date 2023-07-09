@@ -8,3 +8,12 @@ url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&displ
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #AA57CC;
+}
+
