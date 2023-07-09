@@ -84,3 +84,15 @@ header p {
     transition: opacity 0.15s ease;
 }
 
+.inputs button.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.info-txt {
+    display: none;
+    font-size: 19px;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
