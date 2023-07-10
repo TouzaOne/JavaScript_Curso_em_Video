@@ -62,6 +62,11 @@ function setAlarm() {
     if (time.includes('Hour') || time.includes('Minute') || time.includes('AM/PM')) {
         return alert('Please, select a valid time to set Alarm!');
     }
-    
+    alarmTime = time;
+    isAlarmSet = true;
+    content.classList.add('disable');
+    setAlarmBtn.innerText = 'Clear Alarm';
 }
+
+setAlarmBtn.addEventListener('click', setAlarm);
 
