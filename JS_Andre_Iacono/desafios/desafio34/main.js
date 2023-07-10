@@ -48,5 +48,15 @@ setInterval(() => {
     }
 });
 
+function setAlarm() {
+    if (isAlarmSet) {
+        alarmTime = "";
+        ringtone.pause();
+        content.classList.remove('disable');
+        setAlarmBtn.innerText = 'Set Alarm';
+        return isAlarmSet = false;
+    }
 
+    
+}
 
