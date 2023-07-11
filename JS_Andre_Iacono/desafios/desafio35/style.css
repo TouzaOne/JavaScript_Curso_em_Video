@@ -69,3 +69,11 @@ header p {
     color: #999;
 }
 
+.form button {
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 17px;
+    background: #d26506;
+}
+
