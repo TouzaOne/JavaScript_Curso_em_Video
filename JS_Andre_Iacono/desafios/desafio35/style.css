@@ -61,3 +61,11 @@ header p {
     border: 1px solid #999;
 }
 
+.form input:focus {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.13);
+}
+
+.form input::placeholder {
+    color: #999;
+}
+
