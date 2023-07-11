@@ -94,3 +94,7 @@ header p {
     transition: opacity 0.5s 0.05s ease;
 }
 
+.qr-code img {
+    width: 170px;
+}
+
