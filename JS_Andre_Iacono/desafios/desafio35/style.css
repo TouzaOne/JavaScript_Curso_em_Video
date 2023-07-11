@@ -36,3 +36,9 @@ header h1 {
     font-weight: 500;
 }
 
+header p {
+    margin-top: 5px;
+    color: #575757;
+    font-size: 16px;
+}
+
