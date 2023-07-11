@@ -31,3 +31,8 @@ body {
     height: 530px;
 }
 
+header h1 {
+    font-size: 21px;
+    font-weight: 500;
+}
+
