@@ -9,5 +9,11 @@
 }
 
 body {
-    
+    display: flex;
+    padding: 0 10px;
+    min-height: 100vh;
+    align-items: center;
+    background: #dba934;
+    justify-content: center;
 }
+
