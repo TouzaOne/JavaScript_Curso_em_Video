@@ -9,10 +9,16 @@
 <body>
     <section class="sec"></section>
     <script>
-        for (let i = 1; i <= 100; i++) {
+        for (let i = 1; i <= 350; i++) {
             let box = document.createElement('div');
             box.classList.add('box');
             document.querySelector('.sec').appendChild(box);
+        }
+
+        function animteBx() {
+            let boxes = document.querySelectorAll('.box');
+            let num = Math.floor(Math.random() * boxes.length);
+            boxes[num].classList.toggle('animate')
         }
     </script>
 </body>
