@@ -18,9 +18,10 @@
 
         function animteBx() {
             let boxes = document.querySelectorAll('.box');
-            let num = Math.floor(Math.random() * boxes.length);
+            let num = Math.floor(Math.random()*boxes.length);
             boxes[num].classList.toggle('animate')
         }
+        setInterval(animteBx);
     </script>
 </body>
 </html>
