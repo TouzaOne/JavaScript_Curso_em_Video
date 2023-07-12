@@ -3,3 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.sec {
+    position: relative;
+    width: 10vw;
+    height: 100vh;
+    background: #000;
+    overflow: hidden;
+}
