@@ -29,4 +29,5 @@ body {
     font-weight: 600;
     letter-spacing: 0.1em;
     cursor: pointer;
+    transition: 0.1s;
 }
