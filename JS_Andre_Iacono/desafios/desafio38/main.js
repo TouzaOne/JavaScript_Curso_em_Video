@@ -10,5 +10,5 @@ box.addEventListener('mousemove', (e) => {
 })
 
 box.addEventListener('mouseout', (e) => {
-    box.style.transform = `translateX(${moveX}px) translateY(${moveY}px)`;
+    box.style.transform = ``;
 })
