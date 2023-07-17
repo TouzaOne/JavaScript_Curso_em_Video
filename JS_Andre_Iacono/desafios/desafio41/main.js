@@ -7,7 +7,7 @@ function stripes() {
     document.body.appendChild(e);
     e.style.left = Math.random() * innerWidth + 'px';
     e.style.width = 1 + sizeW + 'px';
-    e.style.background = 'hsl('+Math.floor(Math.random()* 60) + 'deg, 100%, 50%)';
+    e.style.background = 'hsl('+Math.floor(Math.random()* 360) + 'deg, 100%, 50%)';
 
     setTimeout(function() {
         document.body.removeChild(e)
