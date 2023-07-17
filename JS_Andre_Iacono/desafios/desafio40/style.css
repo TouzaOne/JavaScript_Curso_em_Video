@@ -27,3 +27,8 @@ a {
     transition: 0.5s;
     letter-spacing: 4px;
 }
+
+a:hover {
+    background: #03e9f4;
+    color: #050801;
+}
