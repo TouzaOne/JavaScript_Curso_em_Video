@@ -9,3 +9,6 @@ function stripes() {
     }, 2000)
 }
 
+setInterval(function() {
+    stripes()
+}, 20);
