@@ -17,3 +17,12 @@ body {
     transform: translate(-50%, -50%);
     max-width: 60vw;
 }
+
+.lines {
+    position: absolute;
+    height: 100vh;
+    background: #ea0914;
+    z-index: 1000;
+    mix-blend-mode: color-dodge;
+    width: 50px;
+}
