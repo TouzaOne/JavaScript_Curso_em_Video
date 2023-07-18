@@ -39,7 +39,7 @@ nav a {
 
 #indicator {
     position: absolute;
-    right: 0;
+    /*right: 0;*/
     height: 75px;
     width: 150px;
     background: #29fd53;
@@ -78,5 +78,6 @@ nav a {
 }
 
 #indicator.change::after {
-    
+    right: -20px;
+    box-shadow: 10px 30px #29fd53, 20px 60px #29fd53, 15px 15px #222327, 25px 45px #222327;
 }
