@@ -45,6 +45,7 @@ nav a {
     background: #29fd53;
     z-index: 1;
     transition: 0.5s;
+    display: none;
 }
 
 #indicator::before {
