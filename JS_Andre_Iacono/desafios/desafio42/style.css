@@ -36,3 +36,15 @@ nav a {
     padding: 0 30px;
     transition: 0.5s;
 }
+
+#indicator {
+    position: absolute;
+    height: 75px;
+    width: 150px;
+    background: #29fd53;
+    z-index: 1;
+}
+
+#indicator::before {
+    
+}
