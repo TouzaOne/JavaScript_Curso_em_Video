@@ -10,4 +10,10 @@ function indicator(e) {
     marker.style.left = e.offsetLeft + 'px';
     marker.style.width = e.offsetWidth + 'px';
     marker.style.display = 'block';
+    marker.style.filter = 'hue-rotate('+ Math.random() * 360 + 'deg)'
 }
+item.forEach(link => {
+    link.addEventListener('click', (e) => {
+        indicator(e.target);
+    })
+})
