@@ -24,3 +24,5 @@ function addActiveClass() {
     this.classList.add('active');
 }
 
+item.forEach((i) => 
+i.addEventListener('click', addActiveClass));
