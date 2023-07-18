@@ -16,5 +16,13 @@ body {
 }
 
 nav {
+    position: relative;
+    display: flex;
+    gap: 30px;
+    background: #222327;
+    padding: 15px 60px;
+}
+
+nav a {
     
 }
