@@ -71,3 +71,12 @@ nav a {
     box-shadow: 5px 30px #29fd53, -15px 60px #29fd53, 15px 15px #222327, 10px 45px #222327;
     transition: 0.5s;
 }
+
+#indicator.change::before {
+    left: -10px;
+    box-shadow: -15px 30px #29fd53, -5px 60px #29fd53, -10px 15px #222327, -20px 45px #222327;
+}
+
+#indicator.change::after {
+    
+}
