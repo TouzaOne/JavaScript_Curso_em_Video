@@ -78,7 +78,7 @@ label span i::after {
     content: '';
     position: absolute;
     bottom: 15px;
-    left: calc(50% -15px);
+    left: calc(50% - 15PX);
     width: 30px;
     height: 6px;
     border-radius: 6px;
