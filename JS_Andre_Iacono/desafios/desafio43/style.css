@@ -52,3 +52,6 @@ label span i {
     transition: 0.5s;
 }
 
+label input:checked ~ span i {
+    left: 84px;
+}
