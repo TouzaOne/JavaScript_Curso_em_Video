@@ -17,3 +17,8 @@ label {
     height: 80px;
 }
 
+label input {
+    position: relative;
+    z-index: 1;
+}
+
