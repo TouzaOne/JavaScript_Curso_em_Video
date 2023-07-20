@@ -16,7 +16,12 @@ for (var i = 0; i < emojis.length; i++) {
                     document.querySelectorAll('.boxOpen')[1].classList.remove('boxOpen')
                     document.querySelectorAll('.boxOpen')[0].classList.remove('boxOpen')
 
-                    
+                    if(document.querySelectorAll('.boxMatch').length == emojis.length) {
+                        alert('You Win!!!')
+                    }
+                } else {
+                    document.querySelectorAll('.boxOpen')[1].classList.remove('boxOpen')
+                    document.querySelectorAll('.boxOpen')[0].classList.remove('boxOpen')
                 }
             }
         })
