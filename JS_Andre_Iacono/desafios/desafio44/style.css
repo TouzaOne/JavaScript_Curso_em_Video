@@ -49,5 +49,11 @@ h2 {
 }
 
 .game {
-    
+    width: 440px;
+    height: 440px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    transform-style: preserve-3d;
+    perspective: 500px;
 }
