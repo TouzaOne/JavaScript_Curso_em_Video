@@ -5,3 +5,14 @@
     font-family: monospace;
 }
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #0a3c2f;
+}
+
+.container {
+    
+}
