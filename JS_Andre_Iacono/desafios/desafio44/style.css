@@ -69,3 +69,13 @@ h2 {
     background: #fff;
     transition: 0.25s;
 }
+
+.item::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: #209d7b;
+    /* opacity: 0.85; */
+    transition: 0.25s;
+    transform: rotateY(0deg);
+}
