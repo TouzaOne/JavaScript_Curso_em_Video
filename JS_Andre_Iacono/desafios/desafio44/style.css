@@ -44,5 +44,10 @@ h2 {
 }
 
 .reset:focus {
+    color: #fff;
+    background: #267C65;
+}
+
+.game {
     
 }
