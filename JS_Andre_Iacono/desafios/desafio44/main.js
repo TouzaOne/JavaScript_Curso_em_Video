@@ -13,6 +13,9 @@ for (var i = 0; i < emojis.length; i++) {
                     document.querySelectorAll('.boxOpen')[0].classList.add('boxMatch')
                     document.querySelectorAll('.boxOpen')[1].classList.add('boxMatch')
 
+                    document.querySelectorAll('.boxOpen')[1].classList.remove('boxOpen')
+                    document.querySelectorAll('.boxOpen')[0].classList.remove('boxOpen')
+
                     
                 }
             }
