@@ -3,3 +3,8 @@ body {
     padding: 0;
 }
 
+section {
+    height: 100vh;
+    background: #000;
+}
+
