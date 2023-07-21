@@ -22,3 +22,8 @@ h1 {
     letter-spacing: 0.2em;
 }
 
+h1 span {
+    display: inline-block;
+    animation: animate 1s linear infinite;
+}
+
