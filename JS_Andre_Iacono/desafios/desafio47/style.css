@@ -18,3 +18,13 @@ body {
     transform-style: preserve-3d;
 }
 
+.loader span {
+    position: absolute;
+    display: block;
+    border: 5px solid #fff;
+    box-shadow: 0 5px 0 #ccc,
+          inset 0 5px 0 #ccc;
+    box-sizing: border-box;
+    border-radius: 50%;
+    animation: animate 3s ease-in-out infinite;
+}
