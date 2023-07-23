@@ -61,3 +61,11 @@ body {
     right: 30px;
     animation-delay: 0s;
 }
+
+.loader span:nth-child(5) {
+    top: 40px;
+    left: 40px;
+    bottom: 40px;
+    right: 40px;
+    animation-delay: 0s;
+}
