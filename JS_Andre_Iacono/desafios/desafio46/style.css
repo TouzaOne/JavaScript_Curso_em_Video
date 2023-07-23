@@ -28,5 +28,12 @@ section .loader span {
 }
 
 section .loader span::before {
-
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #00ff0a;
 }
