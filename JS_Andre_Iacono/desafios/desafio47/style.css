@@ -101,3 +101,12 @@ body {
     right: 80px;
     animation-delay: 0s;
 }
+
+.loader span:nth-child(10) {
+    top: 90px;
+    left: 90px;
+    bottom: 90px;
+    right: 90px;
+    animation-delay: 0s;
+}
+
