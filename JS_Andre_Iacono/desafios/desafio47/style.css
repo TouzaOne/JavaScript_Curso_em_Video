@@ -125,3 +125,11 @@ body {
     right: 110px;
     animation-delay: 0s;
 }
+
+.loader span:nth-child(13) {
+    top: 120px;
+    left: 120px;
+    bottom: 120px;
+    right: 120px;
+    animation-delay: 0s;
+}
