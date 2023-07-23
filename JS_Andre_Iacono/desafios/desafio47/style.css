@@ -117,3 +117,11 @@ body {
     right: 100px;
     animation-delay: 0s;
 }
+
+.loader span:nth-child(12) {
+    top: 110px;
+    left: 110px;
+    bottom: 110px;
+    right: 110px;
+    animation-delay: 0s;
+}
