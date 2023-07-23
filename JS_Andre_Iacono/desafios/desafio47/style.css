@@ -37,3 +37,11 @@ body {
     right: 0;
     animation-delay: 0s;
 }
+
+.loader span:nth-child(2) {
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    animation-delay: 0s;
+}
