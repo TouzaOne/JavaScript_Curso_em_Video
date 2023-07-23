@@ -13,6 +13,15 @@ section {
     animation: animateBg 10s linear infinite;
 }
 
+@keyframes animateBg {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
 section .loader {
     position: relative;
     width: 120px;
