@@ -77,3 +77,11 @@ body {
     right: 50px;
     animation-delay: 0s;
 }
+
+.loader span:nth-child(7) {
+    top: 60px;
+    left: 60px;
+    bottom: 60px;
+    right: 60px;
+    animation-delay: 0s;
+}
