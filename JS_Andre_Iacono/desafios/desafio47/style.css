@@ -30,6 +30,15 @@ body {
     animation: animate 3s ease-in-out infinite;
 }
 
+@keyframes animate {
+    0%,100% {
+        transform: translateZ(-100px);
+    }
+    50% {
+        transform: translateZ(100px);
+    }
+}
+
 .loader span:nth-child(1) {
     top: 0;
     left: 0;
