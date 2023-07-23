@@ -57,5 +57,7 @@ section .loader span::before {
 }
 
 @keyframes animate {
-    
+    0% {
+        transform: scale(1);
+    }
 }
