@@ -13,6 +13,15 @@ section {
     overflow: hidden;
 }
 
+section .row {
+    position: relative;
+    width: 100%;
+    display: flex;
+    padding: 10px 0;
+    white-space: nowrap;
+    font-size: 64px;
+}
+
 i {
     color: #fff;
 }
