@@ -26,6 +26,12 @@ section .row {
 
 section .row div {
     animation: animate 80s linear infinite;
+    animation-delay: -80s;
+}
+
+section .row div:nth-child(2) {
+    animation: animate 80s linear infinite;
+    animation-delay: -40s;
 }
 
 i {
@@ -42,5 +48,10 @@ i:hover {
 }
 
 @keyframes animate {
-    
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
 }
