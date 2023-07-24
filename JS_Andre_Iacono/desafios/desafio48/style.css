@@ -15,19 +15,32 @@ section {
 
 section .row {
     position: relative;
+    top: -50%;
     width: 100%;
     display: flex;
     padding: 10px 0;
     white-space: nowrap;
     font-size: 64px;
+    transform: rotate(-30deg);
+}
+
+section .row div {
+    animation: animate 80s linear infinite;
 }
 
 i {
     color: rgba(0, 0, 0, 0.5);
     transition: 1s;
     padding: 0 5px;
+    user-select: none;
+    cursor: default;
 }
 
 i:hover {
-    color: #fff;
+    color: #0f0;
+    text-shadow: 0 0 120px #0f0;
+}
+
+@keyframes animate {
+    
 }
