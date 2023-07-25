@@ -48,5 +48,6 @@ body {
 }
 
 .box::after {
+    content: '';
     
 }
