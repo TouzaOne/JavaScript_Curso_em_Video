@@ -49,5 +49,6 @@ body {
 
 .box::after {
     content: '';
+    position: absolute;
     
 }
