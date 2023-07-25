@@ -50,5 +50,6 @@ body {
 .box::after {
     content: '';
     position: absolute;
+    inset: 8px;
     
 }
