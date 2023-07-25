@@ -51,5 +51,6 @@ body {
     content: '';
     position: absolute;
     inset: 8px;
+    background: #2d2d39;
     
 }
