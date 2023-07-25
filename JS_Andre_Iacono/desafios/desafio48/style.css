@@ -46,3 +46,7 @@ body {
     animation-delay: -1s;
     border-radius: 20px;
 }
+
+.box::after {
+    
+}
