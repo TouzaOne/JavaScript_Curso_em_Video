@@ -11,3 +11,11 @@ body {
     min-height: 100vh;
     background: #25252b;
 }
+
+.box {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background: repeating-conic-gradient(from var(--a), #ff2770 0%, #ff2770 5%, transparent 5%, transparent 40%, #ff2770 50%);
+    animation: animate 4s linear infinite;
+}
