@@ -14,8 +14,8 @@ body {
 
 .box {
     position: relative;
-    width: 400px;
-    height: 400px;
+    width: 450px;
+    height: 450px;
     background: repeating-conic-gradient(from var(--a), #ff2770 0%, #ff2770 5%, transparent 5%, transparent 40%, #ff2770 50%);
     animation: animate 4s linear infinite;
     border-radius: 20px;
