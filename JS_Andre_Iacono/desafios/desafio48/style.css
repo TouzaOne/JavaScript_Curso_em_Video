@@ -19,3 +19,10 @@ body {
     background: repeating-conic-gradient(from var(--a), #ff2770 0%, #ff2770 5%, transparent 5%, transparent 40%, #ff2770 50%);
     animation: animate 4s linear infinite;
 }
+
+@property --a {
+    syntax: '<angle>';
+    inherits: false;
+    initial-value: 0;
+}
+
