@@ -18,6 +18,7 @@ body {
     height: 400px;
     background: repeating-conic-gradient(from var(--a), #ff2770 0%, #ff2770 5%, transparent 5%, transparent 40%, #ff2770 50%);
     animation: animate 4s linear infinite;
+    border-radius: 20px;
 }
 
 @property --a {
@@ -43,4 +44,5 @@ body {
     background: repeating-conic-gradient(from var(--a), #45f3ff 0%, #45f3ff 5%, transparent 5%, transparent 40%, #45f3ff 50%);
     animation: animate 4s linear infinite;
     animation-delay: -1s;
+    border-radius: 20px;
 }
