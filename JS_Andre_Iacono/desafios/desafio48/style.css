@@ -48,7 +48,9 @@ body {
 }
 
 .box::after {
-    content: '';
+    content: 'Border Animation Effects';
+    text-align: center;
+    color: #fff;
     position: absolute;
     inset: 10px;
     background: #2d2d39;
