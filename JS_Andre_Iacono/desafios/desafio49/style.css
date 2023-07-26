@@ -9,6 +9,8 @@ body {
 }
 
 .container {
+    font-size: 10px;
+    width: 40em;
     height: 40em;
     position: relative;
 }
@@ -41,4 +43,11 @@ body {
     right: 0;
     width: 8em;
     animation: orbit 2.7s linear infinite;
+}
+
+.earth::before,
+.moon::before {
+    content: '';
+    position: absolute;
+
 }
