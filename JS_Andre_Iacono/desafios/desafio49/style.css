@@ -9,7 +9,8 @@ body {
 }
 
 .container {
-
+    height: 40em;
+    position: relative;
 }
 
 .sun {
@@ -24,5 +25,5 @@ body {
 }
 
 .earth, .moon {
-    
+
 }
