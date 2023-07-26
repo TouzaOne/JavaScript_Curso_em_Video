@@ -56,7 +56,7 @@ h1 {
     right: 0;
     width: 8em;
     height: 8em;
-    animation: orbit 2.7s linear infinite;
+    animation: orbit 7.7s linear infinite;
 }
 
 .earth::before,
