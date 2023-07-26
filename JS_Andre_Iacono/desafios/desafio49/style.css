@@ -73,4 +73,8 @@ body {
     background-color: silver;
 }
 
-@keyframes 
+@keyframes orbit {
+    to {
+        transform: rotate(360deg);
+    }
+}
