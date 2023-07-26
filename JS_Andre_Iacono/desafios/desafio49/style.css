@@ -37,5 +37,8 @@ body {
 }
 
 .moon {
-    
+    top: 0;
+    right: 0;
+    width: 8em;
+    animation: orbit 2.7s linear infinite;
 }
