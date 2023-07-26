@@ -9,10 +9,19 @@ body {
 }
 
 .container {
-    font-size: 10px;
+    font-size: 13px;
     width: 40em;
     height: 40em;
-    position: relative;
+    position: relative;    
+}
+
+h1 {
+    margin-top: -25px;
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 20px;        
 }
 
 .sun {
