@@ -30,3 +30,12 @@ body {
     filter: blur(25px);
     animation: move 12s infinite alternate ease-in-out;
 }
+
+.meta::before {
+    animation-duration: 19.3s;
+    animation-delay: -3.3s;
+}
+
+.meta:nth-child(2)::before {
+    
+}
