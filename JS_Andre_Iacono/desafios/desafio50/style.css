@@ -42,6 +42,7 @@ section {
     left: 0;
     animation: animateTwo 10s linear infinite;
     background-size: 300px;
+    filter: blur(1px);
 }
 
 @keyframes animateTwo {
@@ -63,6 +64,7 @@ section {
     left: 0;
     animation: animateThree 10s linear infinite;
     background-size: 800px;
+    filter: blur(1px);
 }
 
 @keyframes animateThree {
