@@ -31,7 +31,7 @@ body {
     animation: move 12s infinite alternate ease-in-out;
 }
 
-.meta::before {
+.meta:before {
     animation-duration: 19.3s;
     animation-delay: -3.3s;
 }
