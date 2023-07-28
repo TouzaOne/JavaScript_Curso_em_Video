@@ -6,5 +6,8 @@ body,html,.wrap {
 }
 
 body {
-    
+    -webkit-filter: contrast(25);
+    filter: contrast(25);
+    background: black;
 }
+
