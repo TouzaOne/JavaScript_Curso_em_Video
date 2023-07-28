@@ -45,3 +45,12 @@ body {
     animation-duration: 8.7s;
     animation-delay: -5.32s;
 }
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes move {
+    
+}
