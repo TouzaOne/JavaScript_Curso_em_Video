@@ -37,5 +37,10 @@ body {
 }
 
 .meta:nth-child(2)::before {
+    animation-duration: 14.7s;
+    animation-delay: -2.7s;
+}
+
+.meta:nth-child(2)::after {
     
 }
