@@ -36,12 +36,12 @@ body {
     animation-delay: -3.3s;
 }
 
-.meta:nth-child(2)::before {
+.meta:nth-child(2):before {
     animation-duration: 14.7s;
     animation-delay: -2.7s;
 }
 
-.meta:nth-child(2)::after {
+.meta:nth-child(2):after {
     animation-duration: 8.7s;
     animation-delay: -5.32s;
 }
