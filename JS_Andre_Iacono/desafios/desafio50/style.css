@@ -11,3 +11,8 @@ body {
     background: black;
 }
 
+.wrap {
+    background: inherit;
+    animation: 7s spin ease-in-out infinite;
+}
+
