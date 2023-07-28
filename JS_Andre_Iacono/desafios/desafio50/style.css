@@ -62,6 +62,9 @@ body {
         transform: translate(100%, -80%);
     }
     40% {
-
+        transform: translate(-140%, 0%);
+    }
+    60% {
+        
     }
 }
