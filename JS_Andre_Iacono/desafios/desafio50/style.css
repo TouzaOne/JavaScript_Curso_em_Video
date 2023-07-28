@@ -13,5 +13,14 @@ section {
 }
 
 .snow1 {
-    
+    background: silver;
+    background-repeat: repeat;
+    width: 100%;
+    height: 650px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: animateOne 10s linear infinite;
 }
+
+@keyframes
