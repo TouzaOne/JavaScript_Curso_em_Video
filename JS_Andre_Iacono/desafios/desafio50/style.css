@@ -16,7 +16,7 @@ body {
     animation: 7s spin ease-in-out infinite;
 }
 
-.meta::before,.meta::after {
+.meta:before,.meta:after {
     content: '';
     position: absolute;
     width: 100px;
@@ -62,6 +62,6 @@ body {
         transform: translate(100%, -80%);
     }
     40% {
-        
+
     }
 }
