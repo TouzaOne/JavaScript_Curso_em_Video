@@ -42,5 +42,6 @@ body {
 }
 
 .meta:nth-child(2)::after {
-    
+    animation-duration: 8.7s;
+    animation-delay: -5.32s;
 }
