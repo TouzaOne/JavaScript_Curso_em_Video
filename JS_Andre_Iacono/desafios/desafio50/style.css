@@ -41,6 +41,7 @@ section {
     top: 0;
     left: 0;
     animation: animateTwo 10s linear infinite;
+    background-size: 300px;
 }
 
 @keyframes animateTwo {
@@ -61,4 +62,14 @@ section {
     top: 0;
     left: 0;
     animation: animateThree 10s linear infinite;
+    background-size: 800px;
+}
+
+@keyframes animateThree {
+    0% {
+        background-position: 0px 100px;
+    }
+    100% {
+        background-position: 300px 650px;
+    }
 }
