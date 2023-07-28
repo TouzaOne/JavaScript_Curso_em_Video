@@ -24,7 +24,7 @@ body {
     left: 50%;
     top: 50%;
     margin: -50px;
-    background: rgba(140, 230, 245, .9);
+    background: rgba(140, 220, 245, .9);
     border-radius: 50%;
     -webkit-filter: blur(25px);
     filter: blur(25px);
