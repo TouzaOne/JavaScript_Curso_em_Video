@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #091921;
+    background: #3888af;
 }
 
 .clock {
@@ -47,13 +47,13 @@ body {
 }
 
 .clock .min, .mn {
-    width: 190px;
-    height: 190px;
+    width: 230px;
+    height: 230px;
 }
 
 .clock .sec, .sc {
-    width: 230px;
-    height: 230px;
+    width: 250px;
+    height: 250px;
 }
 
 .hr, .mn, .sc {
@@ -77,8 +77,8 @@ body {
 .mn:before {
     content: '';
     position: absolute;
-    width: 4px;
-    height: 90px;
+    width: 5px;
+    height: 110px;
     background: #fff;
     z-index: 11;
     border-radius: 6px 6px 0 0;
@@ -89,7 +89,7 @@ body {
     position: absolute;
     width: 2px;
     height: 150px;
-    background: #fff;
+    background: #000;
     z-index: 12;
     border-radius: 6px 6px 0 0;
 }
