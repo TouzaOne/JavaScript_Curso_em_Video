@@ -26,5 +26,13 @@ body {
 }
 
 .clock:before {
-    
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    border-radius: 50%;
+    z-index: 10000;
 }
+
+.clock hour, 
