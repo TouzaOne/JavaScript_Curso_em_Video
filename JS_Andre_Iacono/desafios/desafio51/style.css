@@ -46,6 +46,7 @@ body {
     height: 160px;
 }
 
-.clock .hour, .hr {
-    
+.clock .min, .mn {
+    width: 190px;
+    height: 190px;
 }
