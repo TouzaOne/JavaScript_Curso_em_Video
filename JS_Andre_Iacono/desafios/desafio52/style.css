@@ -65,7 +65,7 @@ section {
 .pattern .face2:before {
     content: '';
     position: absolute;
-    bottom: 0;
+    bottom: top;
     left: 0;
     width: 100%;
     height: 125px;
