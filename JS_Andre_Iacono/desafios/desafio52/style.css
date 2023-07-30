@@ -24,6 +24,7 @@ section {
     height: 50vh;
     background: url(check.jpg);
     background-size: 100px 100px;
+    animation: animate 1s linear infinite;
 }
 
 .pattern .face.face2 {
