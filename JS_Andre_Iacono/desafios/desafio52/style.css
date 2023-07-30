@@ -25,3 +25,11 @@ section {
     background: url(check.jpg);
     background-size: 100px 100px;
 }
+
+.pattern .face.face2 {
+    height: 100vh;
+    transform-origin: top;
+    transform: rotateX(70deg);
+}
+
+.pattern .face1
