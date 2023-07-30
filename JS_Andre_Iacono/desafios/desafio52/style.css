@@ -27,6 +27,15 @@ section {
     animation: animate 1s linear infinite;
 }
 
+@keyframes animate {
+    0% {
+        background-position: 0;
+    }
+    100% {
+        background-position: 100px;
+    }
+}
+
 .pattern .face.face2 {
     height: 100vh;
     transform-origin: top;
