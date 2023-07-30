@@ -19,5 +19,9 @@ section {
 }
 
 .pattern .face {
-    
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background: url(check.jpg);
+    background-size: 100px 100px;
 }
