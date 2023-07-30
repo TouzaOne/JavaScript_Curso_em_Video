@@ -16,6 +16,7 @@ section {
     position: relative;
     transform-style: preserve-3d;
     perspective: 1000px;
+    animation: animateBg 10s ease-in-out infinite;
 }
 
 .pattern .face {
