@@ -94,5 +94,6 @@ body {
 }
 
 .btn::after {
-    
+    content: '';
+    position: absolute;
 }
