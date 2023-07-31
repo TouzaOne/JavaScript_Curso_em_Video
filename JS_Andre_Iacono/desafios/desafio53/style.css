@@ -104,4 +104,12 @@ body {
 .btn::after {
     content: '';
     position: absolute;
+    inset: 2px;
+    background: #191919;
+}
+
+.btn span {
+    position: relative;
+    font-size: 1.5em;
+    
 }
