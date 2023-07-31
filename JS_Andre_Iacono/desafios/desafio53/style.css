@@ -17,12 +17,19 @@ body {
     background: #191919;
 }
 
+@property --a {
+    syntax: '<angle>';
+    inherits: false;
+    initial-value: 0deg;
+}
+
 .loader1 {
     position: relative;
     width: 150px;
     height: 150px;
-    background: repeating-conic-gradient(from 15deg, var(--clr) 5%, transparent 5%, transparent 40%, var(--clr) 100%);
+    background: repeating-conic-gradient(from var(--a), var(--clr) 5%, transparent 5%, transparent 40%, var(--clr) 100%);
     border-radius: 50%;
+    animation: animate 2s linear infinite;
 }
 
 .loader1::before {
