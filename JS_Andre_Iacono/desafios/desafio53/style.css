@@ -17,3 +17,14 @@ body {
     background: #191919;
 }
 
+.loader1 {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background: repeating-conic-gradient(from 15deg, var(--clr) 5%, transparent 5%, transparent 40%, var(--clr) 100%);
+    border-radius: 50%;
+}
+
+.loader1 span {
+    
+}
