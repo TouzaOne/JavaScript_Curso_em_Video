@@ -94,6 +94,11 @@ body {
     animation: animate 2s linear infinite;
     animation-delay: -0.5s;
     transition: 0.5;
+    opacity: 0;
+}
+
+.btn:hover::before {
+    opacity: 1;
 }
 
 .btn::after {
