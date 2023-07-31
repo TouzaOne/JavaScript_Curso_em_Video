@@ -115,6 +115,10 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.15em;
     color: #fff;
+    transition: 0.5s;
 }
 
-.btn span
+.btn:hover span {
+    letter-spacing: 0.35em;
+    color: var(--clr2);
+}
