@@ -145,7 +145,20 @@ body {
 .loader2 span {
     content: '';
     position: absolute;
+    inset: 0;
+    z-index: 1000;
+}
 
+.loader2 span::before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: var(--clr1);
+    box-shadow: 0 0 5px var(--clr1),
+    0 0 20px var(--clr1),
+    0 0 40px var(--clr1),
+    0 0 60px var(--clr1);
 }
 
 .loader2::after {
