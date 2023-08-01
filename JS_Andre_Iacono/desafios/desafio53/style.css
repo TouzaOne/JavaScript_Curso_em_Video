@@ -168,8 +168,8 @@ body {
 .loader2 span::after {
     content: '';
     position: absolute;
-    top: 3px;
-    left: 92px;
+    bottom: 3px;
+    right: 92px;
     width: 10px;
     height: 10px;
     background: var(--clr2);
