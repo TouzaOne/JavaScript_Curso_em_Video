@@ -27,7 +27,7 @@ body {
     position: relative;
     width: 150px;
     height: 150px;
-    background: repeating-conic-gradient(from var(--a), var(--clr) 5%, transparent 5%, transparent 40%, var(--clr) 100%);
+    background: repeating-conic-gradient(from var(--a), var(--clr) 0%, var(--clr) 5%, transparent 5%, transparent 40%, var(--clr) 100%);
     border-radius: 50%;
     animation: animate 2s linear infinite;
 }
@@ -70,7 +70,9 @@ body {
     left: 94px;
     width: 10px;
     height: 10px;
-    background: var(--clr),
+    background: var(--clr);
+    border-radius: 50%;
+    box-shadow: 0 0 5px var(--clr),
     0 0 20px var(--clr),
     0 0 40px var(--clr);
 }
