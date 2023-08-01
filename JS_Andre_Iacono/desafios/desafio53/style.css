@@ -12,7 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: row-reverse;
-    gap: 100px;
+    gap: 200px;
     min-height: 100vh;
     background: #191919;
 }
