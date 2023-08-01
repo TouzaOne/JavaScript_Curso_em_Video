@@ -147,14 +147,18 @@ body {
     position: absolute;
     inset: 0;
     z-index: 1000;
+    animation: rotate 4s linear infinite;
 }
 
 .loader2 span::before {
     content: '';
     position: absolute;
+    top: 3px;
+    left: 92px;
     width: 10px;
     height: 10px;
     background: var(--clr1);
+    border-radius: 50%;
     box-shadow: 0 0 5px var(--clr1),
     0 0 20px var(--clr1),
     0 0 40px var(--clr1),
