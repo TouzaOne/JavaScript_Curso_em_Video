@@ -71,6 +71,7 @@ body {
     flex-direction: column;
     gap: 20px;
     padding: 0 40px;
+    z-index: 10000;
 }
 
 .box form h2 {
@@ -119,5 +120,6 @@ body {
 }
 
 .box form .group a:last-child {
-
+    color: #45f3ff;
+    font-weight: 500;
 }
