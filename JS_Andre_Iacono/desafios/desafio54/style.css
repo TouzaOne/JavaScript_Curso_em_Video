@@ -22,7 +22,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: repeating-conic-gradient(from 45deg, #ff2770 0%, #ff2770 5%, transparent 5%, transparent 35%, #ff2770 50%);
+    background: repeating-conic-gradient(from var(--a), #ff2770 0%, #ff2770 5%, transparent 5%, transparent 35%, #ff2770 50%);
     animation: animate 4s linear infinite;
     border-radius: 20px;
 }
@@ -32,9 +32,13 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: repeating-conic-gradient(from 45deg, #ff2770 0%, #ff2770 5%, transparent 5%, transparent 35%, #ff2770 50%);
+    background: repeating-conic-gradient(from var(--a), #45f3ff 0%, #45f3ff 5%, transparent 5%, transparent 35%, #45f3ff 50%);
     animation: animate 4s linear infinite;
     border-radius: 20px;
+}
+
+@keyframes animate {
+    
 }
 
 .box form {
