@@ -70,5 +70,16 @@ body {
 }
 
 .box form .group {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box form .group a {
+    color: rgba(255, 255, 255, 0.75);
+    text-decoration: none;
+}
+
+.box form .group a:last-child {
     
 }
