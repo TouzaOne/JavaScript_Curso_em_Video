@@ -59,12 +59,16 @@ body {
 
 .box form input[type='submit'] {
     font-weight: 600;
-    background: #2d2d39;
-    color: #fff;
+    background: #fff;
+    color: #2d2d39;
     cursor: pointer;
     transition: 0.5s;    
 }
 
 .box form input[type='submit']:hover {
+    background: #ff2770;
+}
+
+.box form .group {
     
 }
