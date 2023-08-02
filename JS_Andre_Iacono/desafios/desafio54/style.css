@@ -36,5 +36,10 @@ body {
 }
 
 .box form h2 {
+    color: #fff;
+    font-weight: 600;
+}
+
+.box form input {
     
 }
