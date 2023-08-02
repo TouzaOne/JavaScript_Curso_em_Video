@@ -35,6 +35,7 @@ body {
     background: repeating-conic-gradient(from var(--a), #45f3ff 0%, #45f3ff 5%, transparent 5%, transparent 35%, #45f3ff 50%);
     animation: animate 4s linear infinite;
     border-radius: 20px;
+    animation-delay: -1s;
 }
 
 @property --a {
@@ -50,6 +51,15 @@ body {
     100% {
         --a: 360deg;
     }
+}
+
+.box::after {
+    content: '';
+    position: absolute;
+    inset: 8px;
+    background: #2d2d39;
+    border-radius: 15px;
+    border: 9px solid #25252b;
 }
 
 .box form {
