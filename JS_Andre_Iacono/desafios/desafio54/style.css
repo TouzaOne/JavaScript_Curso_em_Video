@@ -22,6 +22,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: repeating-conic-gradient(from 45deg, #ff2770 0%, #ff2770 5%, transparent 5%, transparent 35%, #ff2770 50%);
+    animation: animate 4s linear infinite;
+    border-radius: 20px;
+}
+
+.box::before {
+    content: '';
+    position: absolute;
 }
 
 .box form {
@@ -81,5 +89,5 @@ body {
 }
 
 .box form .group a:last-child {
-    
+
 }
