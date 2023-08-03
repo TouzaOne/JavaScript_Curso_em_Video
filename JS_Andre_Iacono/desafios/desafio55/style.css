@@ -47,5 +47,11 @@ body {
 }
 
 .flames::before {
-    con
+    content: '';
+    position: absolute;
+    width: inherit;
+    height: 6em;
+    background-color: royalblue;
+    top: -4.8em;
+    border-radius: 50% 50% 35% 35%;
 }
