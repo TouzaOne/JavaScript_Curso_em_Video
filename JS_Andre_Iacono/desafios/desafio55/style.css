@@ -60,5 +60,12 @@ body {
 }
 
 .flames::after {
-    
+    content: '';
+    position: absolute;
+    width: inherit;
+    height: 12em;
+    top: -12em;
+    background: linear-gradient(white 80%, transparent);
+    border-radius: 50% 50% 20% 20%;
+    box-shadow: 0;
 }
