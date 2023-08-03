@@ -68,5 +68,9 @@ body {
     background: linear-gradient(white 80%, transparent);
     border-radius: 50% 50% 20% 20%;
     box-shadow: 0 -0.6em 0.4em darkorange;
-    animation: enlarge 5s linear infinite, move 6s linear;
+    animation: enlarge 5s linear infinite, move 6s linear infinite;
+}
+
+@keyframes move {
+    
 }
