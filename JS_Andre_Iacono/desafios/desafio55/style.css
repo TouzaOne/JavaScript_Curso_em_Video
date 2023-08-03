@@ -37,5 +37,10 @@ body {
     width: 0.6em;
     height: 3.6em;
     top: -1.8em;
-    background: linear-gradient();
+    background: linear-gradient(#111, black, orange 90%);
+    border-radius: 40% 40% 0 0;
+}
+
+.flames {
+    
 }
