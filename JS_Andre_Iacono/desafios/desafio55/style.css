@@ -101,3 +101,9 @@ body {
     filter: blur(6em);
     animation: blink 100ms infinite;
 }
+
+@keyframes blink {
+    to {
+        filter: blur();
+    }
+}
