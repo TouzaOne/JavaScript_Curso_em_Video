@@ -42,5 +42,10 @@ body {
 }
 
 .flames {
-    
+    position: absolute;
+    width: 2.4em;
+}
+
+.flames::before {
+    con
 }
