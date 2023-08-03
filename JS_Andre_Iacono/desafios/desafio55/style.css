@@ -21,5 +21,17 @@ body {
 }
 
 .candle::before {
+    content: '';
+    position: absolute;
+    width: inherit;
+    height: 5em;
+    border: 0.2em solid darkorange;
+    border-radius: 50%;
+    box-sizing: border-box;
+    background: radial-gradient(#444, orange, saddlebrown, sienna, darkorange);
+    filter: opacity(0.7);
+}
 
+.thread {
+    
 }
