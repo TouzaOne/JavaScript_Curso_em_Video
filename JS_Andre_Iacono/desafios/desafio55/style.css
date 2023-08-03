@@ -104,6 +104,6 @@ body {
 
 @keyframes blink {
     to {
-        filter: blur();
+        filter: blur(6em) opacity(0.8);
     }
 }
