@@ -92,5 +92,8 @@ body {
 }
 
 .glow {
-    
+    position: absolute;
+    width: 10em;
+    height: 18em;
+    background-color: orange;
 }
