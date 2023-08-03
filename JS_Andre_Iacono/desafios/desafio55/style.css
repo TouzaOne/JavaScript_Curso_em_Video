@@ -95,5 +95,9 @@ body {
     position: absolute;
     width: 10em;
     height: 18em;
-    background-color: orange;
+    background-color: orangered;
+    border-radius: 50%;
+    top: -17em;
+    filter: blur(6em);
+    animation: blink 100ms infinite;
 }
