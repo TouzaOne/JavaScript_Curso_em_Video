@@ -33,5 +33,9 @@ body {
 }
 
 .thread {
-    
+    position: absolute;
+    width: 0.6em;
+    height: 3.6em;
+    top: -1.8em;
+    background: linear-gradient();
 }
