@@ -8,5 +8,17 @@ body {
 }
 
 .candle {
+    width: 15em;
+    height: 30em;
+    font-size: 7px;
+    background: linear-gradient(orange, darkorange, sienna, saddlebrown 50%, rgba(0,0,0,0.6));
+    box-shadow: inset 2em -3em 5em rgba(0,0,0,0.4), inset -2em 0 5em rgba(0,0,0,0.4);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 10em;
+}
+
+.candle::before {
     
 }
