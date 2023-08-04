@@ -61,5 +61,9 @@
 }
 
 .container .cigrate span i:first-child::after {
-    
+    content: 'l';
+    text-transform: lowercase;
+    color: #ccc;    
 }
+
+.container .cigrate span i:last-child 
