@@ -56,5 +56,10 @@
 }
 
 .container .cigrate span i {
+    font-style: normal;
+    color: #da7f09;
+}
+
+.container .cigrate span i:first-child::after {
     
 }
