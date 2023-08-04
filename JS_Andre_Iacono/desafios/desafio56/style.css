@@ -21,5 +21,11 @@
 }
 
 .container .cigrate {
+    transform-style: preserve-3d;
+    animation: animate;
+    -webkit-animation: animate 15s linear infinite;
+}
+
+@keyframes animate {
     
 }
