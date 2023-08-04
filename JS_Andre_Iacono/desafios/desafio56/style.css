@@ -32,6 +32,13 @@
         -webkit-transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
         -moz-transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
         -ms-transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
-        
+        -o-transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+    }
+    100% {
+        transform: perspective(1000px) rotateX(360deg) rotateY(360deg);
+        -webkit-transform: perspective(1000px) rotateX(360deg) rotateY(360deg);
+        -moz-transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+        -ms-transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+        -o-transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
     }
 }
