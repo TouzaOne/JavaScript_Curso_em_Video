@@ -71,5 +71,5 @@
     text-transform: lowercase;
     color: #f00;
     -webkit-filter: blur(2px);
-    text-shadow: -4px 0px 2px #000, 8px 0 20px red, 8px 0 25px #f00, 16px 0 0 #444, 20px 0 0 #666, 25px 0 0 #888, 28px 0 0 #;
+    text-shadow: -4px 0px 2px #000, 8px 0 20px red, 8px 0 25px #f00, 16px 0 0 #444, 20px 0 0 #666, 25px 0 0 #888, 28px 0 0 #999;
 }
