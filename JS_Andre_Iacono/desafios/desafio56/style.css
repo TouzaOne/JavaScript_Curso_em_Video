@@ -27,5 +27,11 @@
 }
 
 @keyframes animate {
-    
+    0% {
+        transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+        -webkit-transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+        -moz-transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+        -ms-transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+        
+    }
 }
