@@ -66,4 +66,9 @@
     color: #ccc;    
 }
 
-.container .cigrate span i:last-child 
+.container .cigrate span i:last-child {
+    filter: blur(2px);
+    text-transform: lowercase;
+    color: #f00;
+    -w
+}
