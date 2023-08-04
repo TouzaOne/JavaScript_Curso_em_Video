@@ -50,4 +50,11 @@
     transform: translate(-50%, -50%) rotateX(calc(var(--i)*36deg)) translateZ(25px);
     transform-style: preserve-3d;
     -webkit-transform: translate(-50%, -50%) rotateX(calc(var(--i)*36deg)) translateZ(25px);
+    -moz-transform: translate(-50%, -50%) rotateX(calc(var(--i)*36deg)) translateZ(25px);
+    -ms-transform: translate(-50%, -50%) rotateX(calc(var(--i)*36deg)) translateZ(25px);
+    -o-transform: translate(-50%, -50%) rotateX(calc(var(--i)*36deg)) translateZ(25px);
+}
+
+.container .cigrate span i {
+    
 }
