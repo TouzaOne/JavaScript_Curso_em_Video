@@ -42,7 +42,14 @@ const product = [
     },
     {
         id: 3,
-        
+        image: 'image/dd-2.jpg',
+        title: 'Laptop',
+        price: 100,
+        category: 'Laptop'
+    },
+    {
+        id: 3,
+        image: 'image/'
     }
 
 ]
