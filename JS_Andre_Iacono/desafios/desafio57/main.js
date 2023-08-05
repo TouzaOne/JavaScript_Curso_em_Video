@@ -35,7 +35,14 @@ const product = [
     },
     {
         id: 2,
-        image: 'image/'
+        image: 'image/ee-2.jpg',
+        title: 'DSLR Camera',
+        price: 200,
+        category: 'cameras'
+    },
+    {
+        id: 3,
+        
     }
 
 ]
