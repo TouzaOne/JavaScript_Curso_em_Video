@@ -49,7 +49,16 @@ const product = [
     },
     {
         id: 3,
-        image: 'image/'
-    }
+        image: 'image/gg-3.jpg',
+        title: 'Mobile',
+        price: 350,
+    },
+    {
+        id: 3,
+        image: 'image/ee-1.jpg',
+        title: 'DSLR Camera',
+        price: 130,
+        category: 'cameras'
+    },
+];
 
-]
