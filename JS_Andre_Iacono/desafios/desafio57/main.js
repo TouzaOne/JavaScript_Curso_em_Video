@@ -15,6 +15,13 @@ const product = [
     },
     {
         id: 1,
+        image: 'image/ee-3.jpg',
+        title: '250D DSLR Camera',
+        price: 230,
+        category: 'cameras'
+    },
+    {
+        id: 2, 
         
     }
 
