@@ -62,3 +62,9 @@ const product = [
     },
 ];
 
+const categories = [...new Set(product.map((item)=>{
+    return item}))]
+
+const displayItem = (items) => {
+    document.getElementById('root')
+}
