@@ -22,7 +22,13 @@ const product = [
     },
     {
         id: 2, 
-        
+        image: 'image/gg-2.jpg',
+        title: 'Foldable Mobile',
+        price: 300,
+    },
+    {
+        id: 2,
+        imag
     }
 
 ]
