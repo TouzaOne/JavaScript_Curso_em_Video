@@ -111,3 +111,8 @@ const btns=[
         name: '>>',
     },
 ]
+
+const filters = [...new Set(btns.map((btn)=> {
+    return btn
+}))]
+
