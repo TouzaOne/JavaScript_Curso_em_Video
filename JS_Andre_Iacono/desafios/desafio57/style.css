@@ -89,5 +89,6 @@ button:hover {
 }
 
 #btns>button:hover {
-    
+    background: #4bb7e1;
+    color: white;
 }
