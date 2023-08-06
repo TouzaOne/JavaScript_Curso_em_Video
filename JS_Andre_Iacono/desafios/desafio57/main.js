@@ -89,3 +89,16 @@ function item(value){
     }
 }
 displayItem(filterFirstCategories)
+const btns=[
+    {
+        id:1,
+        name: '<<'
+    },
+    {
+        id: 1,
+        name: '1'
+    },
+    {
+        
+    }
+]
