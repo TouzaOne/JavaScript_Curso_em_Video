@@ -121,3 +121,14 @@ document.getElementById('btns').innerHTML=filters.map((btn)=> {
     return(
         "<button class='fil-p' onclick='filterItems("+(id)+`)' >${name}</button>`)
 }).join('');
+
+const filterItems = (a)=> {
+    const filterCategories = categories.filter(item);
+    function item(value) {
+        if(value.id==a) {
+            return(
+                value.id
+            )
+        }
+    }
+}
