@@ -131,4 +131,5 @@ const filterItems = (a)=> {
             )
         }
     }
+    displayItem(filterCategories)
 }
