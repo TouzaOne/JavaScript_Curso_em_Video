@@ -1,3 +1,3 @@
 let label = document.querySelector('label');
 
-label.innerHTML = document.querySelector
+label.innerHTML = label.innerText.split('').map((letters, i)=> `<span>${letters}</span>`).join('');
