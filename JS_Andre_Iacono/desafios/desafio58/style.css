@@ -62,5 +62,5 @@ body {
 
 .inputBox input:focus,
 .inputBox input:valid {
-    
+    border-bottom: 2px solid #fff;
 }
