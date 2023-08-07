@@ -16,5 +16,12 @@ body {
 }
 
 .inputBox {
+    position: relative;
+    width: 350px;
+}
+
+.inputBox input {
+    position: relative;
+    width: 100%;
     
 }
