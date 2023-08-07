@@ -23,5 +23,11 @@ body {
 .inputBox input {
     position: relative;
     width: 100%;
-    
+    padding: 10px 0;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #999;
+    color: #fff;
+    font-size: 1.25em;
 }
