@@ -30,4 +30,14 @@ body {
     border-bottom: 2px solid #999;
     color: #fff;
     font-size: 1.25em;
+    transition: 0.5s;
+}
+
+.inputBox label {
+    position: absolute;
+    left: 0;
+    padding: 10px 0;
+    pointer-events: none;
+    color: #666;
+    user-select: none;
 }
