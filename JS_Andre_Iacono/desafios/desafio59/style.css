@@ -31,3 +31,10 @@
 .bar--bigger {
     height: 120px;
 }
+
+h1 {
+    font-family: 'Tex Gyre Adventor', sans-serif;
+    font-size: 4rem;
+    margin: -32px 67px;
+    letter-spacing: -1px;
+}
