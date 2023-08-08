@@ -13,4 +13,13 @@
     overflow: hidden;
 }
 
-.bar
+.bar {
+    width: 35px;
+    height: 100px;
+    background-color: #121212;
+    transform: rotate(-30deg) translate(0, 35px);
+}
+
+.bar--small {
+    
+}
