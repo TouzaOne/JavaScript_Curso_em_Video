@@ -27,3 +27,7 @@
 .bar--middle {
     height: 85px;
 }
+
+.bar--bigger {
+    height: 120px;
+}
