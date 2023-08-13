@@ -44,3 +44,11 @@ body {
 #minimize:hover {
     background: #1a4;
 }
+
+#resize:hover {
+    background: #aa1;
+}
+
+#close:hover {
+    
+}
