@@ -88,3 +88,7 @@ html, body {
 .outer span:nth-child(2) {
     filter: blur(14px);
 }
+
+.outer {
+    animation: rotate 1.5s linear infinite;
+}
