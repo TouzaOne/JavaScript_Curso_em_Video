@@ -54,4 +54,12 @@ html, body {
     cursor: pointer;
 }
 
-.button button
+.button button {
+    height: 60px;
+    width: 210px;
+    border-radius: 50px;
+}
+
+.circle button {
+    
+}
