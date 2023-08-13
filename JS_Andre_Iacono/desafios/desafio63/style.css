@@ -49,6 +49,7 @@ html, body {
     outline: none;
     border: none;
     font-size: 20px;
+    z-index: 9;
     letter-spacing: 1px;
     text-transform: uppercase;
     cursor: pointer;
@@ -61,5 +62,21 @@ html, body {
 }
 
 .circle button {
-    
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+}
+
+.outer span {
+    height: 100%;
+    width: 100%;
+    background: inherit;
+}
+
+.button span {
+    border-radius: 50px;
+}
+
+.circle span {
+    border-radius: 50%;
 }
