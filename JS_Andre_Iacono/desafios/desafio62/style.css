@@ -3,5 +3,18 @@ body {
 }
 
 #window {
+    width: 400px;
+    background: #d9d9d9;
+    margin: 0 auto;
+    margin-top: 2%;
+    border-radius: 3px;
+    padding: 12px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333;
+    cursor: default;
+    box-shadow: 0 0 16px -2px #32323280;
+}
+
+#buttons {
     
 }
