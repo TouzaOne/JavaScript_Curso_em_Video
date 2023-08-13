@@ -21,7 +21,7 @@ html, body {
 .outer {
     position: relative;
     margin: 0 50px;
-    background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
+    background: #111;
 }
 
 .button {
@@ -81,15 +81,16 @@ html, body {
     border-radius: 50%;
 }
 
-.outer span:nth-child(1) {
+.outer:hover span:nth-child(1) {
     filter: blur(7px);
 }
 
-.outer span:nth-child(2) {
+.outer:hover span:nth-child(2) {
     filter: blur(14px);
 }
 
-.outer {
+.outer:hover {
+    background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
     animation: rotate 1.5s linear infinite;
 }
 
@@ -100,4 +101,8 @@ html, body {
     100% {
         filter: hue-rotate(360deg);
     }
+}
+
+@media (max-width: 640px) {
+    
 }
