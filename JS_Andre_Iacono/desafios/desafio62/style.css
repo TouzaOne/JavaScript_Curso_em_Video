@@ -38,5 +38,9 @@ body {
 }
 
 #close {
-    
+    background: #c33;
+}
+
+#minimize:hover {
+    background: #1a4;
 }
