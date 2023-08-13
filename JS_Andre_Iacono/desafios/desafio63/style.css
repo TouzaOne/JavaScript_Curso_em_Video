@@ -80,3 +80,11 @@ html, body {
 .circle span {
     border-radius: 50%;
 }
+
+.outer span:nth-child(1) {
+    filter: blur(7px);
+}
+
+.outer span:nth-child(2) {
+    filter: blur(14px);
+}
