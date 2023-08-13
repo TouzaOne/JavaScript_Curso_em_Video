@@ -8,6 +8,7 @@ html, body {
     display: grid;
     height: 100%;
     place-items: center;
+    background: #000;
 }
 
 .center {
@@ -18,5 +19,10 @@ html, body {
 }
 
 .outer {
+    margin: 0 50px;
+    background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
+}
+
+.button {
     
 }
