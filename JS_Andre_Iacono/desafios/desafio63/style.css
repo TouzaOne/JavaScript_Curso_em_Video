@@ -24,5 +24,11 @@ html, body {
 }
 
 .button {
+    height: 70px;
+    width: 220px;
+    border-radius: 50px;
+}
+
+.circle {
     
 }
