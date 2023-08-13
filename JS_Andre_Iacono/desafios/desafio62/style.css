@@ -16,5 +16,10 @@ body {
 }
 
 #buttons {
+    float: right;
+    margin-right: 12px;
+}
+
+#buttons a {
     
 }
