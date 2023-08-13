@@ -58,3 +58,16 @@ body {
     font-size: 90%;
 }
 
+textarea {
+    width: 96%;
+    max-width: 96%;
+    min-height: 220px;
+    background: #efefef;
+    margin-top: 10px;
+    border: 0;
+    padding: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 95%;
+    line-height: 24px;
+    color: ;
+}
