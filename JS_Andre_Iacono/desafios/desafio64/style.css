@@ -14,6 +14,7 @@ body {
 
 #activity {
     display: table-cell;
+    vertical-align: middle;
 
 }
 
@@ -50,5 +51,6 @@ a:link, a:hover, a:visited, a:active {
 }
 
 .hits {
-    font-size: ;
+    font-size: 2em;
+    font-weight: bolder;
 }
