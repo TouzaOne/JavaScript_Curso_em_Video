@@ -38,5 +38,14 @@ body {
 }
 
 .tryagain {
-    
+    background-color: aqua;
+    padding: 15px 50px;
+    border-radius: 20px;
+    color: black;
+    font-size: 20px;
 }
+
+a:link, a:hover, a:visited, a:active {
+    text-decoration: none;
+}
+
