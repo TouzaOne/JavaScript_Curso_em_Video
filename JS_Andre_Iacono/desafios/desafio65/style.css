@@ -12,5 +12,12 @@ body {
 }
 
 .bowl {
-    
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: relative;
+    animation: move 8s infinite;
 }
+
+@keyframes 
