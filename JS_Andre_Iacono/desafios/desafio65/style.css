@@ -99,5 +99,13 @@ body {
 }
 
 .fin {
+    width: 40px;
+    height: 24px;
+    position: absolute;
+    background: #EF8A1F;
+    border-radius: 50%;
+}
+
+.fin.top {
     
 }
