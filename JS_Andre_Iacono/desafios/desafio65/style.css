@@ -20,4 +20,21 @@ body {
     animation: move 8s infinite;
 }
 
-@keyframes 
+@keyframes move {
+    0% {
+        transform: rotate(0);
+    }
+    33% {
+        transform: rotate(-20deg);
+    }
+    67% {
+        transform: rotate(20deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+
+.bowl::after {
+    
+}
