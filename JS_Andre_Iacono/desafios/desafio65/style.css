@@ -133,5 +133,12 @@ body {
 }
 
 .eye {
-    
+    height: 16px;
+    width: 16px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 2px;
+    top: 10px;
 }
+
