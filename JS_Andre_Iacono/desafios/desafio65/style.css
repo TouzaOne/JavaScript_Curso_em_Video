@@ -154,5 +154,16 @@ body {
 }
 
 .eye::after {
+    content: '';
+    background: white;
+    height: 4px;
+    width: 4px;
+    border-radius: 50%;
+    position: absolute;
+    left: 4px;
+    top: 5px;
+}
+
+.tail {
     
 }
