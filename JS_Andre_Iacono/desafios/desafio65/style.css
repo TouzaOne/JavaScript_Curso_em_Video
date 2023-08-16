@@ -107,5 +107,13 @@ body {
 }
 
 .fin.top {
+    z-index: -100;
+    transform: rotate(-20deg);
+    left: 14px;
+    bottom: 24px;
+    border-radius: 50% 50% 0% 0%;
+}
+
+.fin.bottom {
     
 }
