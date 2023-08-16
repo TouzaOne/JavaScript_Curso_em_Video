@@ -142,3 +142,17 @@ body {
     top: 10px;
 }
 
+.eye::before {
+    content: '';
+    background: black;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    position: absolute;
+    left: 2px;
+    top: 4px;
+}
+
+.eye::after {
+    
+}
