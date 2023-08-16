@@ -175,5 +175,16 @@ body {
 
 .tail::before {
     content: '';
+    position: absolute;
+    width: 32px;
+    height: 20px;
+    border-radius: 50%;
+    background: #EF8A1F;
+    transform: rotate(-30deg);
+    top: -10px;
+}
+
+.tail::after {
+    content: '';
     
 }
