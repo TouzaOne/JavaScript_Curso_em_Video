@@ -123,5 +123,15 @@ body {
 }
 
 .fin-center {
+    height: 10px;
+    width: 12px;
+    background: #EF8A1F;
+    border-radius: 50% 0 0 50%;
+    position: absolute;
+    left: 30px;
+    top: 12px;
+}
+
+.eye {
     
 }
