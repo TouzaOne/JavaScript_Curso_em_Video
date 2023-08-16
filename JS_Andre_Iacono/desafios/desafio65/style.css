@@ -62,5 +62,21 @@ body {
 }
 
 @keyframes move1 {
+    0% {
+        transform: rotate(0);
+    }
+    33% {
+        transform: rotate(20deg);
+    }
+    67% {
+        transform: rotate(-20deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+
+.water::after {
+    content: '';
     
 }
