@@ -62,8 +62,29 @@ async function Draw() {
                     Z = C(p)*ls1
                     b = [...b, [X,Y,Z]]
                     X = S(p=Math.PI*2/cl*j)* ls1
-                    Y
+                    Y = (1/rw*(i+1)-.5)*ls2
+                    Z = C(p)*ls1
+                    b = [...b, [X,Y,Z]]
+                    a = [...a, b]
                 }
+            }
+            b = []
+            for(let j=cl; j--;) {
+                X = S(p=Math.PI*2/cl*j) * ls1
+                Y = ls2/2
+                Z = C(p)*ls1
+                b = [...b, [X,Y,Z]]
+            }
+            return a
+        }
+        stroke = (scol, fcol, lwo=1) => {
+            if(scol) {
+                x.closePath()
+                x.globalAlpha = .1
+                x.strokeStyle = scol
+                x.lineWidth = Math.min(100, 15000*lwo/Z)
+                x.stroke()
+                x.lineWidth 
             }
         }
     }
