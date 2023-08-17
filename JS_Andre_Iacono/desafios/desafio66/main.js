@@ -174,7 +174,16 @@ async function Draw() {
         v[6]-=.005
         R(Rl,Pt,Yw,1)
         if(Z>0){
-            
+            s = Math.min(1e3,14e3/Z)
+            x.fillStyle = '#2200ff02'
+            l = Q()
+            x.fillRect(l[0]-s/2,l[1]-s/2,s,s)
+            s/=10
+            x.fillStyle = '#fff8'
+            x.fillRect(l[0]-s/2,l[1]-s/2,s,s)
         }
     })
+    t+=1/60
+    requestAnimationFrame(Draw)
 }
+Draw()
