@@ -164,5 +164,17 @@ async function Draw() {
         if(Z>0)x.lineTo(...Q())
     })
     stroke("#0f8", "#40f1")
-    shots = shots.filter(v=>v[6])
+    shots = shots.filter(v=>v[6]>0)
+    shots.map(v=> {
+        v[0]/=1.02
+        v[2]/=1.02
+        X = v[0] += v[3]*=1.05
+        Y = v[1] += v[4]*=1.05
+        Z = v[2] += v[5]*=1.05
+        v[6]-=.005
+        R(Rl,Pt,Yw,1)
+        if(Z>0){
+            
+        }
+    })
 }
