@@ -126,5 +126,12 @@ async function Draw() {
         bg.src = 'https://i.imgur.com/MCjtiXN.jpeg'
     }
     oX=0, oY=20, oZ=300+Math.min(100,Math.max(-150,S(t/2)*600))
-    Rl=S(t/4),
+    Rl=S(t/4), Pt=-.4+C(t/2)/3, Yw=S(t/8)*6
+    path = [], sd=100
+    for(i=sd+1; i--;){
+        ls = 120+S(Math.PI*2*(sd/20|0)/sd*i)*8**2/2
+        X = S(p=Math.PI*2/sd*i)*ls
+        Y = ((Math.hypot(X,Y)*99)**7/16e26)*Math.max(-1,Math.min(1,S(t*4)))
+        path=[...path]
+    }
 }
