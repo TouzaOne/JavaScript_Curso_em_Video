@@ -36,6 +36,16 @@ async function Draw() {
                 Z+=oZ
             }
         }
-        Q=
+        Q=()=> [c.width/2+X/Z*800,c.height/2+Y/Z*800]
+        Cylinder = (rw, cl, ls1, ls2) => {
+            let a = []
+            for (let i=rw; i--;) {
+                let b = []
+                for(let j=cl; j--;) {
+                    X = S(p=Math.PI*2/cl*j)*ls1
+                    Y = 
+                }
+            }
+        }
     }
 }
