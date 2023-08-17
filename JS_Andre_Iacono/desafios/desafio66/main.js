@@ -54,7 +54,15 @@ async function Draw() {
                     Z = C(p) * ls1
                     b = [...b, [X,Y,Z]]
                     X = S(p=Math.PI*2/cl*(j+1)) * ls1
-                    
+                    Y = (1/rw*i-.5)*ls2
+                    Z = C(p) * ls1
+                    b = [...b, [X,Y,Z]]
+                    X = S(p=Math.PI*2/cl*(j+1))*ls1
+                    Y = (1/rw*(i+1)-.5)*ls2
+                    Z = C(p)*ls1
+                    b = [...b, [X,Y,Z]]
+                    X = S(p=Math.PI*2/cl*j)* ls1
+                    Y
                 }
             }
         }
