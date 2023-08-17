@@ -43,7 +43,18 @@ async function Draw() {
                 let b = []
                 for(let j=cl; j--;) {
                     X = S(p=Math.PI*2/cl*j)*ls1
-                    Y = 
+                    Y = (1/rw*i-.5)*ls2
+                    Z = C(p) *ls1
+                    b = [...b, [X,Y,Z]]
+                }
+                for(let j=cl; j--;) {
+                    b = []
+                    X = S(p=Math.PI*2/cl*j)*ls1
+                    Y = (1/rw*i-.5)*ls2
+                    Z = C(p) * ls1
+                    b = [...b, [X,Y,Z]]
+                    X = S(p=Math.PI*2/cl*(j+1)) * ls1
+                    
                 }
             }
         }
