@@ -142,6 +142,13 @@ async function Draw() {
         ofx = el1[0] + (el2[0]-el1[0])*prog
         ofy = el1[1] + (el2[1]-el1[1])*prog
         ofz = el1[2] + (el2[2]-el1[2])*prog
-
+        if(!((t*60|0)%shotFreq))
+            spawnShot()
     }
+    x.globalAlpha = .1
+    x.drawImage(bg,0,0,c.width,c.height)
+    x.globalAlpha = 1
+    x.fillStyle = '#0003'
+    x.fillRect(0,0,c.width,c.height)
+    x.lineJoin = x.line
 }
