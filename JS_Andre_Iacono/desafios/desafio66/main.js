@@ -84,7 +84,13 @@ async function Draw() {
                 x.strokeStyle = scol
                 x.lineWidth = Math.min(100, 15000*lwo/Z)
                 x.stroke()
-                x.lineWidth 
+                x.lineWidth /= 8
+                x.globalAlpha = 1
+                x.stroke()
+            }
+            if(fcol) {
+                x.fillStyle = fcol
+                x.
             }
         }
     }
