@@ -101,6 +101,13 @@ async function Draw() {
                 q[1]-=1.25
             })
         })
+        guns = [...guns, a]
+        a = Cylinder(1,6,1,5)
+        a.map(v=> {
+            v.map(q=> {
+                q[1]-=5
+            })            
+        })
         guns
     }
 }
