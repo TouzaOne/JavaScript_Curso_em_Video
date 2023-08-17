@@ -108,6 +108,23 @@ async function Draw() {
                 q[1]-=5
             })            
         })
-        guns
+        guns = [...guns, a]
+        progIdx = prog = 0
+        shots = []
+        iPv = .01
+        shotFreq = 0
+        spawnShot = () => {
+            X = ofx
+            Y = ofy-7
+            Z = ofz
+            vx = 0
+            vy = -iPv
+            vz = 0
+            shots = [...shots, [X,Y,Z,vx,vy,vz,1]]
+        }
+        bg = new Image()
+        bg.src = 'https://i.imgur.com/MCjtiXN.jpeg'
     }
+    oX=0, oY=20, oZ=300+Math.min(100,Math.max(-150,S(t/2)*600))
+    Rl=S(t/4),
 }
