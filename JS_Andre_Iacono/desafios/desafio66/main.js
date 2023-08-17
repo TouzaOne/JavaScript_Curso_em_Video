@@ -150,5 +150,19 @@ async function Draw() {
     x.globalAlpha = 1
     x.fillStyle = '#0003'
     x.fillRect(0,0,c.width,c.height)
-    x.lineJoin = x.line
+    x.lineJoin = x.lineCap = 'round'
+    x.beginPath()
+    path.map((v,i)=> {
+        X = v[0]
+        Y = v[1]
+        Z = v[2]
+        R(0,0,S(t)/10)
+        v[0] = X
+        v[1] = Y
+        v[2] = Z
+        R(Rl,Pt,Yw,1)
+        if(Z>0)x.lineTo(...Q())
+    })
+    stroke("#0f8", "#40f1")
+    shots = shots.filter(v=>v[6])
 }
