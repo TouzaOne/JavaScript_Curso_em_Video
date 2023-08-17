@@ -25,7 +25,17 @@ async function Draw() {
             A=M.atan2
             H=M.hypot
             X=S(p=A(x,y)+Rl)*(d=H(X,Y))
-            Y=C(p)*
+            Y=C(p)*d
+            X=S(p=A(X,Z)+Yw)*(d=H(X,Z))
+            Z=C(p)*d
+            Y=S(p=A(Y,Z)+Pt)*(d=H(Y,Z))
+            Z=C(p)*d
+            if(m) {
+                X+=oX
+                Y+=oY
+                Z+=oZ
+            }
         }
+        Q=
     }
 }
