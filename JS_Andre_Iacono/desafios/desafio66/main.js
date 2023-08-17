@@ -90,8 +90,17 @@ async function Draw() {
             }
             if(fcol) {
                 x.fillStyle = fcol
-                x.
+                x.fill()
             }
         }
+        Rn = Math.random
+        guns = []
+        a = Cylinder(1,6,2,2.5)
+        a.map(v=> {
+            v.map(q=> {
+                q[1]-=1.25
+            })
+        })
+        guns
     }
 }
