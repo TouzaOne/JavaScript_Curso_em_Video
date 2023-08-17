@@ -132,6 +132,16 @@ async function Draw() {
         ls = 120+S(Math.PI*2*(sd/20|0)/sd*i)*8**2/2
         X = S(p=Math.PI*2/sd*i)*ls
         Y = ((Math.hypot(X,Y)*99)**7/16e26)*Math.max(-1,Math.min(1,S(t*4)))
-        path=[...path]
+        path=[...path, [X,Y,Z]]
+    }
+    for(j=30; j--;){
+        prog +=.666
+        if(prog>=1) prog-=1,progIdx++
+        el1 = path[progIdx%path.length]
+        el2 = path[(progIdx + 1) % path.length]
+        ofx = el1[0] + (el2[0]-el1[0])*prog
+        ofy = el1[1] + (el2[1]-el1[1])*prog
+        ofz = el1[2] + (el2[2]-el1[2])*prog
+
     }
 }
