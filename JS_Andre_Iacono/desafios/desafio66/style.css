@@ -9,6 +9,7 @@ body {
     background: #222;
     background-image: linear-gradient(to right, #333 1px, transparent 1px), linear-gradient(to bottom, #333 1px, transparent 1px);
     background-size: 40px 40px;
+    cursor: none;
 }
 
 #cursor {
@@ -19,9 +20,29 @@ body {
     border-left: 5px solid #0f0;
     transform-origin: top;
     transform: translate(-1px, 5px)rotate(15deg)scale(0);
+    transition: transform 0.1s;
+    pointer-events: none;
+    animation: animate 5s linear infinite;
+}
+
+#cursor::before {
+    content: '';
+    position: absolute;
+    left: -2.5px;
+    width: 5px;
+    height: 40px;
+    background: #0f0;
+    transform-origin: top;
+    transform: rotate(315deg);
 }
 
 body:hover #cursor {
-    
+    transform: translate(-1px, 5px)rotate(15deg)scale(1);
+}
+
+@keyframes animate {
+    0% {
+        
+    }
 }
 
