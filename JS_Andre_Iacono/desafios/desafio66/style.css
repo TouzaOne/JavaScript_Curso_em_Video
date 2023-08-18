@@ -12,6 +12,16 @@ body {
 }
 
 #cursor {
+    position: fixed;
+    width: 25px;
+    height: 25px;
+    border-top: 5px solid #0f0;
+    border-left: 5px solid #0f0;
+    transform-origin: top;
+    transform: translate(-1px, 5px)rotate(15deg)scale(0);
+}
+
+body:hover #cursor {
     
 }
 
