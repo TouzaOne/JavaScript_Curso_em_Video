@@ -20,5 +20,16 @@ body {
 }
 
 .sheet_1 {
+    background: #4fd7ed;
+    z-index: 3;
+    transition: all .25s;
+    color: #fff;
+    line-height: 100px;
+    text-align: center;
+    font-size: 28px;
+    will-change: transform;
+}
+
+.sheet_2 {
     
 }
