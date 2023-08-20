@@ -52,5 +52,9 @@ body {
 }
 
 .wrapper:hover .sheet_1 {
+    transform: skewY(-20deg) scale(.7);
+}
+
+.wrapper:hover .sheet_2 {
     
 }
