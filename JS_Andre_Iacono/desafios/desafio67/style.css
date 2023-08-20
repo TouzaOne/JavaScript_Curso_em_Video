@@ -3,5 +3,14 @@ body {
 }
 
 .wrapper {
+    width: 200px;
+    height: 200px;
+    margin: 100px auto;
+    position: relative;
+    cursor: pointer;
+    background: #21469c;
+}
+
+.sheet {
     
 }
