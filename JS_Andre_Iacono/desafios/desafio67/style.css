@@ -62,6 +62,6 @@ body {
     transform: skewY(-10deg) scale(.85);
 }
 
-.wrapper:hover .sheet_3 {
-    
+.wrapper:hover .sheet_3::after {
+    bottom: -10px;
 }
