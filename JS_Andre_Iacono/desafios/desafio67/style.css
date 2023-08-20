@@ -12,5 +12,13 @@ body {
 }
 
 .sheet {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    transform-style: preserve-3d;
+    transform-origin: top left;
+}
+
+.sheet_1 {
     
 }
