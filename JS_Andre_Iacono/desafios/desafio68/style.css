@@ -42,4 +42,22 @@ span input {
 
 textarea {
     width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: #eee;
+    border: none;
+    outline: none;
+}
+
+button {
+    background-color: #e53653;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    margin-top: 20px;
+}
+
+button:hover {
+    
 }
