@@ -22,5 +22,9 @@ body {
 }
 
 .container p {
+    margin: 20px 0;
+}
+
+form div {
     
 }
