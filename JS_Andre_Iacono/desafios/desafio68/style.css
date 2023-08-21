@@ -13,3 +13,14 @@ body {
     justify-content: center;
     background-color: #34a8f0;
 }
+
+.container {
+    background-color: white;
+    border-radius: 5px;
+    padding: 30px;
+    width: 450px;
+}
+
+.container p {
+    
+}
