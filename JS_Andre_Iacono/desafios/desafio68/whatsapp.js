@@ -9,5 +9,5 @@ function sendToWhatsapp() {
     + "Email : " +email+ "%0a"
     + "Message : " +message+ "%0a%0a";
 
-    
+    window.open(url, '_blank').focus();
 }
