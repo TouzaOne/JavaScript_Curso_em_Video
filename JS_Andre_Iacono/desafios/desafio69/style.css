@@ -16,5 +16,10 @@
 }
 
 .tabs input {
+    visibility: hidden;
+    display: none;
+}
+
+.buttons {
     
 }
