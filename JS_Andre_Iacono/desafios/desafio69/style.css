@@ -71,9 +71,9 @@ label:nth-child(3) {
 .content .box:nth-child(1) {
     background: linear-gradient(90deg, #43cea2, #185a9d);
 }
-.content .box:nth-child(1) {
-    background: linear-gradient(90deg, #43cea2, #185a9d);
+.content .box:nth-child(2) {
+    background: linear-gradient(90deg, #ff4e50, #f9d423);
 }
-.content .box:nth-child(1) {
-    background: linear-gradient(90deg, #43cea2, #185a9d);
+.content .box:nth-child(3) {
+    background: linear-gradient(90deg, #9d50bb, #6e48aa);
 }
