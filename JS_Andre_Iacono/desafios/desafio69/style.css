@@ -103,5 +103,8 @@ label:nth-child(3) {
 }
 
 .content .box .contentBx h2 {
-    
+    font-size: 3em;
+    color: #fff;    
 }
+
+
