@@ -107,4 +107,13 @@ label:nth-child(3) {
     color: #fff;    
 }
 
+.content .box .contentBx p {
+    font-size: 1.2em;
+    color: #fff;
+    max-width: 700px;
+    text-align: center;
+}
 
+.content .box .contentBx button {
+    
+}
