@@ -97,5 +97,11 @@ label:nth-child(3) {
 }
 
 .content .box .contentBx ion-icon {
+    font-size: 12em;
+    color: #fff;
+    --ionicon-stroke-width: 16px;
+}
+
+.content .box .contentBx h2 {
     
 }
