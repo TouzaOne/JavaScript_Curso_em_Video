@@ -77,3 +77,13 @@ label:nth-child(3) {
 .content .box:nth-child(3) {
     background: linear-gradient(90deg, #9d50bb, #6e48aa);
 }
+
+.tabs input:nth-child(1):checked ~ .content {
+    left: 0;
+}
+.tabs input:nth-child(2):checked ~ .content {
+    left: -100vw;
+}
+.tabs input:nth-child(3):checked ~ .content {
+    left: -200vw;
+}
