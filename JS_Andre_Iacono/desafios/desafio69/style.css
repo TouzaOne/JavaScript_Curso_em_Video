@@ -68,3 +68,12 @@ label:nth-child(3) {
     padding: 40px;
 }
 
+.content .box:nth-child(1) {
+    background: linear-gradient(90deg, #43cea2, #185a9d);
+}
+.content .box:nth-child(1) {
+    background: linear-gradient(90deg, #43cea2, #185a9d);
+}
+.content .box:nth-child(1) {
+    background: linear-gradient(90deg, #43cea2, #185a9d);
+}
