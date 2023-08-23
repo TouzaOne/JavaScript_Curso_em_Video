@@ -87,3 +87,15 @@ label:nth-child(3) {
 .tabs input:nth-child(3):checked ~ .content {
     left: -200vw;
 }
+
+.content .box .contentBx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.content .box .contentBx ion-icon {
+    
+}
