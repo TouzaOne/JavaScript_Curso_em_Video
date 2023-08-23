@@ -115,5 +115,16 @@ label:nth-child(3) {
 }
 
 .content .box .contentBx button {
-    
+    font-size: 1.2em;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px 35px;
+    background: #fff;
+    color: #333;
+    letter-spacing: 0.05em;
+    margin-top: 10px;
+    font-weight: 600;
+    border: none;
+    border-radius: 40px;
+    transition: 0.5s;
 }
