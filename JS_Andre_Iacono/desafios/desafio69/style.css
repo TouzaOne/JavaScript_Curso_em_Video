@@ -128,3 +128,7 @@ label:nth-child(3) {
     border-radius: 40px;
     transition: 0.5s;
 }
+
+.content .box .contentBx button:hover {
+    letter-spacing: 0.2em;
+}
