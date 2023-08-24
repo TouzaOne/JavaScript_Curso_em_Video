@@ -44,5 +44,6 @@
 }
 
 .slider-nav a:hover {
+    width: 0.5rem;
     opacity: 1;
 }
