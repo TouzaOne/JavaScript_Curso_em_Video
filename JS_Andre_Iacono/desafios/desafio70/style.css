@@ -43,7 +43,6 @@
     transition: opacity ease 250ms;
 }
 
-.slider-nav a:hover {
-    width: 0.5rem;
+.slider-nav a:hover {    
     opacity: 1;
 }
