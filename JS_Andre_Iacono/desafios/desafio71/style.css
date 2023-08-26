@@ -29,5 +29,10 @@ button {
 }
 
 button:hover {
+    color: yellow;
+    cursor: pointer;
+}
+
+.b-1 {
     
 }
