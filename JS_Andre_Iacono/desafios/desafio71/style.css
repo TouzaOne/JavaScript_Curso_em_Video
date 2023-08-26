@@ -20,5 +20,14 @@ body {
 }
 
 button {
+    border: none;
+    font-size: 16px;
+    background-color: #333333;
+    padding: 15px 50px;
+    color: aqua;
+    border-radius: 5px;
+}
+
+button:hover {
     
 }
