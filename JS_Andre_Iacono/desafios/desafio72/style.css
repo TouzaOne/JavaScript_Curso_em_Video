@@ -27,5 +27,6 @@ body {
 }
 
 .load :nth-child(2) {
-    background: ;
+    background: #F63D3A;
+    animation-delay: -1s;
 }
