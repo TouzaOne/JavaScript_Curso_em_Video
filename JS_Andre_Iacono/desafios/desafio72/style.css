@@ -35,3 +35,8 @@ body {
     background: #FDA543;
     animation-delay: -0.5s;
 }
+
+.load :last-child {
+    background: #193B48;
+}
+
