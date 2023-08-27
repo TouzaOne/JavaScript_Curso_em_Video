@@ -6,3 +6,20 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #edf1f4;
+}
+
+.box {
+    position: relative;
+}
+
+.container {
+    position: relative;
+    min-width: 400px;
+}
