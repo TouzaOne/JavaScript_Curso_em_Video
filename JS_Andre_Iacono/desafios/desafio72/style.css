@@ -23,7 +23,7 @@ body {
 
 .load :first-child {
     background: #19A68C;
-    animation-delay: -2s;
+    animation-delay: -2.5s;
 }
 
 .load :nth-child(2) {
@@ -39,6 +39,11 @@ body {
 .load :nth-child(4) {
     background: #FDA543;
     animation-delay: -0.5s;
+}
+
+.load :nth-child(5) {
+    background: aqua;
+    animation-delay: 0s;
 }
 
 .load :last-child {
