@@ -79,8 +79,11 @@ h1:nth-child(7) {
 h1:nth-child(8) {
     transform: translateZ(35px);
 }
-h1:nth-child(8) {
-    transform: translateZ(35px);
+h1:nth-child(9) {
+    transform: translateZ(40px);
+}
+h1:nth-child(9) {
+    transform: translateZ(40px);
 }
 
 
