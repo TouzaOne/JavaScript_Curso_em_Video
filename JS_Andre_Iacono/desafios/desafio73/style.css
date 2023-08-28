@@ -61,4 +61,7 @@ figure {
 h1:nth-child(2) {
     transform: translateZ(5px);
 }
+h1:nth-child(3) {
+    transform: translateZ(10px);
+}
 
