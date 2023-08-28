@@ -50,8 +50,15 @@ figure {
     25% {
         text-shadow: 0 0 30px orange;
     }
-    25% {
-        text-shadow: 0 0 30px orange;
+    50% {
+        text-shadow: 0 0 30px forestgreen;
     }
+    75% {
+        text-shadow: 0 0 30px cyan;
+    }
+}
+
+h1:nth-child(2) {
+    
 }
 
