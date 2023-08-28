@@ -9,5 +9,11 @@ h1 {
 }
 
 body {
+    background: #0a0a0a;
+    overflow: hidden;
+    text-align: center;
+}
+
+figure {
     
 }
