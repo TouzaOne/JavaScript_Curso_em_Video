@@ -48,7 +48,10 @@ figure {
         text-shadow: 0 0 30px red;
     }
     25% {
-        
+        text-shadow: 0 0 30px orange;
+    }
+    25% {
+        text-shadow: 0 0 30px orange;
     }
 }
 
