@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=COncert+One');
+@import url('https://fonts.googleapis.com/css?family=Concert+One');
 
 h1 {
     display: block;
@@ -43,5 +43,12 @@ figure {
     }
 }
 
-@keyframes 
+@keyframes glow {
+    0%, 100% {
+        text-shadow: 0 0 30px red;
+    }
+    25% {
+        
+    }
+}
 
