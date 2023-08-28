@@ -1,2 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=COncert+One');
 
+h1 {
+    animation: glow 10s ease-in-out infinite;
+}
+
+* {
+    
+}
