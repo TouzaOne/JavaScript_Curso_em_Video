@@ -52,5 +52,13 @@ body {
 }
 
 .container .box h2 {
+    position: relative;
+    text-align: center;
+    font-size: 2.5em;
+    color: #fff;
+    font-weight: 600;
+}
+
+.container .box h2 small {
     
 }
