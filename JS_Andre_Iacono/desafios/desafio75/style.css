@@ -44,5 +44,13 @@ body {
 }
 
 .container .box .circle::before {
+    content: '';
+    position: absolute;
+    inset: 10px;
+    background: #25252b;
+    border-radius: 50%;
+}
+
+.container .box h2 {
     
 }
