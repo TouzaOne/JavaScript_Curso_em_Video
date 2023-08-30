@@ -22,5 +22,16 @@ body {
 }
 
 .container .box {
+    position: relative;
+    padding: 40px 0;
+    width: 240px;
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .box .circle {
     
 }
