@@ -33,5 +33,8 @@ body {
 }
 
 .container .box .circle {
-    
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background: conic-gradient(from 0deg, var(--clr) 0%, var(--clr) 0%, );
 }
