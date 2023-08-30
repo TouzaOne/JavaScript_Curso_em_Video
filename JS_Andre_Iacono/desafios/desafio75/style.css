@@ -60,5 +60,10 @@ body {
 }
 
 .container .box h2 small {
+    font-size: 0.5em;
+    font-weight: 300;
+}
+
+.container .box h3 {
     
 }
