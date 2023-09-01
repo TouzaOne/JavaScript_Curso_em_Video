@@ -82,8 +82,9 @@
             --_y: -12cqi;
             --_bxsh: -35cqi -35cqi 0 0 var(--_bg), 35cqi -35cqi 0 0 var(--_bg);
             &:checked, &:hover {
-                
+                --_bxsh: -30cqi -15cqi 0 0 var(--_bg), 30cqi -15cqi 0 0 var(--_bg);
+                --_r: 15deg;
             }
-        };
+        }
     }
 }
