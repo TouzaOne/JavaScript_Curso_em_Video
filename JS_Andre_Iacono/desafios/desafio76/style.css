@@ -49,7 +49,11 @@
     & label {
         display: contents;
         &:nth-of-type(1) input {
-            
+            --_bg: #4DA665;
+            --_r: -12deg;
+            --_x: 5cqi;
+            --_bxsh: -35cqi 35cqi 0 0 var(--_bg), 35cqi 35cqi 0 0 var(--_bg);
+            &:checked
         }
     }
 }
