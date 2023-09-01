@@ -69,7 +69,21 @@
             --_bg: #E4A2A3;
             --_trs: 0 18cqi;
             --_y: -12cqi;
-            --_bxsh: -30cqi 35cqi 0 0 var(--_bg), 30cqi 35cqi 
+            --_bxsh: -30cqi 35cqi 0 0 var(--_bg), 30cqi 35cqi 0 0 var(--_bg);
+            &:checked, &:hover {
+                --_bxsh: -30cqi 20cqi 0 0 var(--_bg), 30cqi 20cqi 0 0 var(--_bg);
+                --_r
+            }
         }
+        &:nth-of-type(4) input {
+            --_bg: #D25969;
+            --_r: 10deg;
+            --_trs: 0 18cqi;
+            --_y: -12cqi;
+            --_bxsh: -35cqi -35cqi 0 0 var(--_bg), 35cqi -35cqi 0 0 var(--_bg);
+            &:checked, &:hover {
+                
+            }
+        };
     }
 }
