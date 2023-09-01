@@ -1,0 +1,18 @@
+.ui-mood {
+    all: unset;
+    display: grid;
+    gap: .33em;
+    grid-template-columns: repeat(4, 1fr);
+    & input {
+        appearance: none;
+        border-radius: 50%;
+        aspect-ratio: 1;
+        background: var(--_bg);
+        border: 0;
+        container-type: inline-size;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        height: 100%;
+        
+    }
+}
