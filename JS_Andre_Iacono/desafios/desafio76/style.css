@@ -58,7 +58,11 @@
             }
         }
         &:nth-of-type(2) input {
-            
+            --_bg: #A4CC9F;
+            --_bxsh: -35cqi 35cqi 0 0 var(--_bg), 35cqi 35cqi 0 0 var(--_bg);
+            &:checked, &:hover {
+                --_bxsh: -35cqi 25cqi 0 0 var(--_bg), 35cqi 2
+            }
         }
     }
 }
