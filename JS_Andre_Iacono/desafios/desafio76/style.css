@@ -13,6 +13,15 @@
         display: grid;
         grid-template-rows: 1fr 1fr;
         height: 100%;
-        
+        overflow: hidden;
+        padding-inline: 25%;
+        row-gap: 10%;
+        scale: .9;
+        transition: scale .2s linear;
+        width: 100%;
+        &:checked {
+            box-shadow: 0 0 0 .25em color-mix(in srgb, var(--_bg), #000 30%);
+            scale: 1;
+        }
     }
 }
