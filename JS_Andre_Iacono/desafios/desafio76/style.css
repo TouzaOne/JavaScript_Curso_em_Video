@@ -29,7 +29,14 @@
             aspect-ratio: 1 /1.1;
             background: var(--_bg);
             border-radius: 50%;
-            box-shadow: var(--_bg);
+            box-shadow: var(--_bxsh, 0 0 0 0), -35cqi 0 0 0 #000, 35cqi 0 0 0 #000;
+            content: '';
+            justify-self: center;
+            transition: box-shadow .2s linear;
+            width: 30cqi;
+        }
+        &::after {
+            
         }
     }
 }
