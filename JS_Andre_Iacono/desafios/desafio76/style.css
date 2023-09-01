@@ -36,6 +36,19 @@
             width: 30cqi;
         }
         &::after {
+            background: inherit;
+            border-radius: var(--_bdrs, 100% / 100%);
+            box-shadow: var(--_x, 0) var(--_y, 12cqi) 0 0 #000;
+            content: '';
+            height: 35cqi;
+            rotate: var(--_r, 0);
+            transition: rotate .2s linear;
+            translate: var(--_trs, 0 -12cqi);
+        }
+    }
+    & label {
+        display: contents;
+        &:nth-of-type(1) input {
             
         }
     }
