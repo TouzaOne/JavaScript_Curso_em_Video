@@ -72,7 +72,7 @@
             --_bxsh: -30cqi 35cqi 0 0 var(--_bg), 30cqi 35cqi 0 0 var(--_bg);
             &:checked, &:hover {
                 --_bxsh: -30cqi 20cqi 0 0 var(--_bg), 30cqi 20cqi 0 0 var(--_bg);
-                --_r
+                --_r: -5deg;
             }
         }
         &:nth-of-type(4) input {
