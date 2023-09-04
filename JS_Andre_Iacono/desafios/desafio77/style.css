@@ -63,4 +63,7 @@ body {
 #smoke .s2 {
     animation: smokeL 10s 2s infinite;
 }
+#smoke .s3 {
+    animation: smokeL 10s 3s infinite;
+}
 
