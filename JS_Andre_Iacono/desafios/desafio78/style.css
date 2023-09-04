@@ -63,5 +63,10 @@ body {
 }
 
 .box p {
-    
+    margin: 0;
+}
+
+.name {
+    display: flex;
+    gap: 40px;
 }
