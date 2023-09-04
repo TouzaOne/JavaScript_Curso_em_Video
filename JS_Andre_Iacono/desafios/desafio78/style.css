@@ -10,5 +10,14 @@ body {
 }
 
 .container {
+    display: flex;
+    gap: 30px;
+    width: 60%;
+    box-shadow: 2px 2px 10px #aaaaaa;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.left {
     
 }
