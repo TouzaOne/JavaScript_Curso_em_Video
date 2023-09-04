@@ -28,5 +28,11 @@ body {
 }
 
 .fa-solid {
+    font-size: 250px;
+    padding: 30px;
+    color: #06dbca;
+}
+
+#timer {
     
 }
