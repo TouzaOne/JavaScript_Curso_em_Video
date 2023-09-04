@@ -3,5 +3,14 @@ body {
 }
 
 #smoke {
+    position: absolute;
+    z-index: 3;
+    width: 1px;
+    height: 160px;
+    left: 50%;
+    bottom: 50%;
+}
+
+#smoke span {
     
 }
