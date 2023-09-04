@@ -34,5 +34,13 @@ body {
 }
 
 #timer {
+    width: 50%;
+}
+
+#timer h2 {
+    color: #06dbca;
+}
+
+.counter {
     
 }
