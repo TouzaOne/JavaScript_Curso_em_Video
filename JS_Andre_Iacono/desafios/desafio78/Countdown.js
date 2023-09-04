@@ -19,6 +19,13 @@ function timeBetweenDates(toDate) {
         var hours = Math.floor(minutes / 60);
         var days = Math.floor(hours / 24);
 
-        
+        hours %= 24;
+        minutes %= 60;
+        seconds %= 60;
+
+        document.getElementById('days').innerHTML = days;
+        document.getElementById('hours').innerHTML = hours;
+        document.getElementById('minutes').innerHTML = minutes;
+        document.getElementById('seconds').innerHTML = seconds;
     }
 }
