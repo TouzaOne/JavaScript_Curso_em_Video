@@ -55,6 +55,6 @@ body {
 }
 
 #smoke .s0 {
-    animation: ;
+    animation: smokeL 10s 0s infinite;
 }
 
