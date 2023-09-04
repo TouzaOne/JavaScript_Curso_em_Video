@@ -48,5 +48,20 @@ body {
 }
 
 .box {
+    background-color: #06dbca;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50px;
+    border-radius: 5px;
+}
+
+.box span {
+    font-size: 30px;
+}
+
+.box p {
     
 }
