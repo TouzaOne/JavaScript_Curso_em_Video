@@ -8,3 +8,14 @@ body {
     margin: 0;
 }
 
+.main {
+    background-color: azure;
+    width: 60%;
+    padding: 10px 50px 50px 50px;
+    border-radius: 5px;
+}
+
+.main>h1,.main>p {
+    text-align: center;
+}
+
