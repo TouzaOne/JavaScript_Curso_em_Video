@@ -19,3 +19,15 @@ body {
     text-align: center;
 }
 
+.main>p {
+    margin: -20px 0 40px 0;
+}
+
+.container {
+    display: flex;
+    gap: 30px;
+}
+
+.left {
+    
+}
