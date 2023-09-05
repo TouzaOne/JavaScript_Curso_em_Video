@@ -31,7 +31,7 @@ body {
 .left {
     width: 50%;
     height: auto;
-    background-image: url('image.avif') !important;
+    background-image: url('image/avif.jpg') !important;
     border-radius: 5px;
     background-size: cover;
     background-position: center;
