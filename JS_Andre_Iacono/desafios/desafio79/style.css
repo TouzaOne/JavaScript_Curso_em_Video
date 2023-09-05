@@ -39,5 +39,16 @@ body {
 }
 
 .right {
+    width: 50%;
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    border-radius: 5px 5px 0 0;
+}
+
+.tab button {
     
 }
