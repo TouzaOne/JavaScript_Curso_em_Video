@@ -16,5 +16,11 @@ body {
 }
 
 h2 {
-    
+    position: relative;
+    font-size: 3em;
+    letter-spacing: 0.05em;
+    cursor: default;
+    text-transform: uppercase;
+    font-weight: 500;
 }
+
