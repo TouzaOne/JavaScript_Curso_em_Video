@@ -75,28 +75,16 @@ animation
 })
 .add({
     rotate: function() {
-        return anime.random(-360,360)},
+        return anime.random(0,0)},
     translateY: function() {
-        return anime.random(-150,150)},
+        return anime.random(0,0)},
     translateX: function() {
-        return anime.random(-150,150)},
-    delay: anime.stagger(100,{grid: grid, from:''}),
+        return anime.random(0,0)},
+    delay: anime.stagger(100,{grid: grid, from:'last'}),
     keyframes: [
         {
-            background: '#f00'
-        },
-        {
-            background: '#0f0'
-        },
-        {
-            background: '#f0f'
-        },
-        {
-            background: '#ff0'
-        },
-        {
-            background: '#0ff'
-        },
+            background: '#fff'
+        },        
         {
             background: '#333'
         },
