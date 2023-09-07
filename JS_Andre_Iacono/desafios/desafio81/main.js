@@ -44,3 +44,61 @@ animation
         },
     ]
 })
+.add({
+    rotate: function() {
+        return anime.random(-360,360)},
+    translateY: function() {
+        return anime.random(-150,150)},
+    translateX: function() {
+        return anime.random(-150,150)},
+    delay: anime.stagger(100,{grid: grid, from:'center'}),
+    keyframes: [
+        {
+            background: '#f00'
+        },
+        {
+            background: '#0f0'
+        },
+        {
+            background: '#f0f'
+        },
+        {
+            background: '#ff0'
+        },
+        {
+            background: '#0ff'
+        },
+        {
+            background: '#333'
+        },
+    ]
+})
+.add({
+    rotate: function() {
+        return anime.random(-360,360)},
+    translateY: function() {
+        return anime.random(-150,150)},
+    translateX: function() {
+        return anime.random(-150,150)},
+    delay: anime.stagger(100,{grid: grid, from:''}),
+    keyframes: [
+        {
+            background: '#f00'
+        },
+        {
+            background: '#0f0'
+        },
+        {
+            background: '#f0f'
+        },
+        {
+            background: '#ff0'
+        },
+        {
+            background: '#0ff'
+        },
+        {
+            background: '#333'
+        },
+    ]
+})
