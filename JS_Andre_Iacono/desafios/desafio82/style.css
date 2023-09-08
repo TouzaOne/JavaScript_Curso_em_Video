@@ -39,6 +39,11 @@ body {
     transform: rotate(calc(var(--r)* 1deg));
 }
 
+.container:hover .glass {
+    transform: rotate(0deg);
+    margin: 0 20px;
+}
+
 .container .glass::before {
     content: attr(data-text);
     position: absolute;
@@ -50,4 +55,8 @@ body {
     justify-content: center;
     align-items: center;
     color: #fff;
+}
+
+.container .glass i {
+    
 }
