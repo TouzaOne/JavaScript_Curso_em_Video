@@ -58,4 +58,10 @@
             translate: 0 0;
             transform-origin: center;
         }
+        100% {
+            scale: 1;
+            rotate: 0deg;
+            translate: 0 0;
+            transform-origin: center;
+        }
     }
