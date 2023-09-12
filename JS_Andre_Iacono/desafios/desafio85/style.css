@@ -28,5 +28,12 @@ body {
 }
 
 .speaker.inside {
-    
+    width: 38%;
+    background-image: url(https://zmotrin.github.io/assets/speaker/speaker-3.webp);
+    filter: blur(0.05vmin);
+    animation-name: inside;
+    animation-duration: 100ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
 }
+
