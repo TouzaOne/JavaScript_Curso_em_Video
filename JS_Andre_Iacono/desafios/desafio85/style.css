@@ -46,3 +46,10 @@ body {
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
+
+.speaker.border {
+    width: 100%;
+    background-image: url(https://zmotrin.github.io/assets/speaker/speaker-1.webp);
+    filter: 0.1vmin;
+    
+}
