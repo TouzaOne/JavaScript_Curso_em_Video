@@ -19,5 +19,14 @@ body {
 }
 
 .speaker {
+    position: absolute;
+    aspect-ratio: 1/1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-size: contain;
+}
+
+.speaker.inside {
     
 }
