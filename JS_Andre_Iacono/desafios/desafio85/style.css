@@ -37,3 +37,8 @@ body {
     animation-timing-function: ease;
 }
 
+.speaker.center {
+    width: 76%;
+    background-image: url(https://zmotrin.github.io/assets/speaker/speaker-2.webp);
+    filter: blur(0.2vmin);
+}
