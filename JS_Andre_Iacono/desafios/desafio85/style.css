@@ -76,5 +76,10 @@ body {
 }
 
 @keyframes border {
-    
+    0% {
+        transform: translate(-50.2%, -49.8%);
+    }
+    100% {
+        transform: translate(-49.8%, -50.2%);
+    }
 }
