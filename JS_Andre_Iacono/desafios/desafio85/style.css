@@ -7,3 +7,17 @@ body {
     background-color: antiquewhite;
 }
 
+.speaker-wrapper {
+    position: absolute;
+    width: 80vmin;
+    aspect-ratio: 1/1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    clip-path: circle(50%);
+    box-shadow: 0 0 10px #000000;
+}
+
+.speaker {
+    
+}
