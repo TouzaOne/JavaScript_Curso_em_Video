@@ -41,4 +41,8 @@ body {
     width: 76%;
     background-image: url(https://zmotrin.github.io/assets/speaker/speaker-2.webp);
     filter: blur(0.2vmin);
+    animation-name: center;
+    animation-duration: 50ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
