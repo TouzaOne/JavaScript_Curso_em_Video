@@ -8,5 +8,11 @@
 }
 
 @property --deg {
+    syntax: '<angle>';
+    inherits: false;
+    initial-value: -12deg;
+}
+
+body {
     
 }
