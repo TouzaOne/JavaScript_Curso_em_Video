@@ -43,5 +43,15 @@ body {
 }
 
 .loader::before {
+    content: '';
+    position: absolute;
+    width: calc(100% - calc(var(--sz) / 10));
+    height: calc(100% - calc(var(--sz) / 10));
+    border-radius: calc(var(--sz) / 20);
+    background: var(--bg2);
+    clip-path: polygon(0% 0%, 38% 0%, 50% 12%, 62% 0%, 100% 0%, 100% 38%, 88% 50%, 100% 62%, 100% 100%, 62% 100%, 50% 88%, 38% 100%, 0% 100%, 0% 62%, 12% 50%, 0% 38%);
+}
+
+@keyframes spin {
     
 }
