@@ -38,4 +38,10 @@ body {
     border-radius: calc(var(--sz) / 10);
 }
 
-.loader
+.loader:hover {
+    animation: spin var(--spd) linear 0s infinite, rotation var(--spd) linear 0s infinite;
+}
+
+.loader::before {
+    
+}
