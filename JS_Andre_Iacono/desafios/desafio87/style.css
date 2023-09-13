@@ -43,10 +43,8 @@ body {
     bottom: 100px;
     border: 20px solid #fff;
     border-radius: 50%;
-    box-shadow: 0 0 50px #fff,
-    inset 0 0 50px #fff;
-    -webkit-box-reflect: below 10px linear-gradiente(transparent, transparent,#0002);
-    animation: animate 5s linear infinite;
+    box-shadow: 0 0 10px #fff,
+    inset 0 0 20px #fff;    
 }
 
 .circle:nth-child(2)::before {
@@ -61,23 +59,19 @@ body {
     }
     20% {
         box-shadow: 0 0 60px #0f0,
-    inset 0 0 60px #0f0;
-    
+    inset 0 0 60px #0f0;    
     }
     40% {
         box-shadow: 0 0 40px #0f0,
-    inset 0 0 40px #0f0;
-    
+    inset 0 0 40px #0f0;    
     }
     60% {
         box-shadow: 0 0 80px #0f0,
-    inset 0 0 80px #0f0;
-    
+    inset 0 0 80px #0f0;    
     }
     80% {
         box-shadow: 0 100 50px #0f0,
-    inset 0 0 100px #0f0;
-    
+    inset 0 0 100px #0f0;    
     }
     100% {
         box-shadow: 0 0 50px #0f0,
