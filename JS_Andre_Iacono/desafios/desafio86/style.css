@@ -1,0 +1,12 @@
+:root {
+    --bg1: #09334f;
+    --bg2: #072a40;
+    --wrm: #d1faff;
+    --deg: -12deg;
+    --sz: 15vmin;
+    --spd: 2.05s;
+}
+
+@property --deg {
+    
+}
