@@ -25,3 +25,10 @@ body {
     background: var(--bg1);
 }
 
+.loader {
+    width: var(--sz);
+    height: var(--sz);
+    background: conic-gradient(from var(--deg) at 50% 50%, var(--bg1) 0, var(--wrm) 25deg 50deg, var(--bg1) 51deg 100%);
+    clip-path: polygon(0% 0%, 40% 0%, 50% 10%, 60% 0%, 100% 0%, 100% 40%, 90% 50%, 100% 60%, 100% 100%, 60% 100%, 50% 90%, 40% 100%, 0% 100%, 0% 60%, 10% 50%, 0% 40%);
+    animation: ;
+}
