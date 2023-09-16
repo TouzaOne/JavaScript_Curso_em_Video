@@ -16,5 +16,12 @@ body {
 }
 
 ul {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+ul li {
     
 }
