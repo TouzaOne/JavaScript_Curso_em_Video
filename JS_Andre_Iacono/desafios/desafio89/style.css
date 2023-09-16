@@ -23,5 +23,17 @@ ul {
 }
 
 ul li {
-    
+    position: relative;
+    list-style: none;
 }
+
+ul li a {
+    position: relative;
+    font-size: 3em;
+    text-decoration: none;
+    color: #fff2;
+    letter-spacing: 0.25em;
+    line-height: 1em;
+    text-transform: capitalize;
+}
+
