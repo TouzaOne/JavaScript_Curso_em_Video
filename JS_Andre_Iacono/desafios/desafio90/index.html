@@ -26,7 +26,11 @@
             let colorLength = 6;
             let color = '';
 
-            
+            for(let i = 1; i <= colorLength; i++) {
+                let randomColors = Math.floor(Math.random() * chars.length);
+                color += chars.substring(randomColors,randomColors+1);
+            }
+            return '#'+color
         }
 
         let boxes = document.querySelectorAll('.box');
