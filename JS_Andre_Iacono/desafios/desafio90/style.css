@@ -38,3 +38,11 @@ section h2 {
     grid-gap: 30px;
 }
 
+.container .box {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transition: 0.5s;
+    background: #fff;
+    border-radius: 10px;
+}
