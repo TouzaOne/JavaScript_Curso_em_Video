@@ -10,5 +10,10 @@ body {
 }
 
 :root {
+    --color-heading: #25d1f7;
+    --color-heading-shadow: #0379c3;
+}
+
+h1 {
     
 }
