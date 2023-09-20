@@ -15,5 +15,8 @@ body {
 }
 
 h1 {
-    
+    font-family: 'Cherry Bomb One', sans-serif;
+    font-size: 15vw;
+    color: var(--color-heading);
+    text-shadow: 0 1px 0 var(--color-heading-shadow), 0 2px 0 var(--color-heading-shadow), 0 3px 0 var(--color-heading-shadow), 0 4px 0 var(--color-heading-shadow), 0 5px 0 var(--color-heading-shadow), 0 6px 0 var(--color-heading-shadow), 0 7px 0 var(--color-heading-shadow), 0 8px 0;
 }
