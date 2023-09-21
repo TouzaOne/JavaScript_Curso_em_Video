@@ -40,3 +40,9 @@ a::after {
     animation: 10s infinite alternate ease-in-out tipsy;
 }
 
+a::before {
+    border-color: #d9524a #d9524a #00000000 #00000000;
+    z-index: -1;
+}
+
+a
