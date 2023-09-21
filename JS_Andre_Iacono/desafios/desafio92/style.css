@@ -8,5 +8,10 @@
 }
 
 body {
-    
+    font-family: cursive;
+    background-color: #2e2e31;
+}
+
+a {
+    color: #fff;
 }
