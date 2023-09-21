@@ -45,4 +45,7 @@ a::before {
     z-index: -1;
 }
 
-a
+a::after {
+    border-color: #00000000 #00000000 #d9524a #d9524a;
+    box-shadow: 25px 25px 25px #2e2e31cc;
+}
