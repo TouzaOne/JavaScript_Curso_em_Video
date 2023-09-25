@@ -1,0 +1,10 @@
+.trigger-btn {
+    background: #ddd;
+    font-weight: 800;
+    border: 2px solid black;
+}
+
+.close-btn {
+    border: none;
+    
+}
