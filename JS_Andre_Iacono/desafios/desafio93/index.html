@@ -3,11 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SVG Text Animation</title>
+    <title>Popover</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">    
 </head>
 <body>
-    <span class="paragraph">TouzaOne</span>
+    <button popovertarget="my-popover" class="trigger-btn">Open Popover</button>
+    <div id="my-popover" popover="manual">
+        <button class="close-btn" popovertarget="my-popover" popovertargetaction="hide">
+            <span aria-hidden="true"></span>
+            <span class="sr-only">Close</span>
+        </button>
+        <p>I am a popover with more information.</p>
+    </div>
 </body>
 </html>
