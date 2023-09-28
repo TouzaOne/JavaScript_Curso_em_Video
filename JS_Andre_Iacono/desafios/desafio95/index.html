@@ -18,7 +18,9 @@
         render(15, 270, '#F39F5A')
 
         function render(items, offset = 0, color = 'red') {
-            const rad = 
+            const rad = 180 / items;
+            const delay = 4000 / items;
+            return [...Array(items).keys()].map((index) => `<i style="--_bg:${color};--_deg:${rad * index + offset}deg;--_del:${delay * index}ms;">)
         }
     </script>
 </body>
