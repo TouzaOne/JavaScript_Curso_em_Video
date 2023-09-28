@@ -32,3 +32,11 @@ body {
     transform-origin: bottom right;
 }
 
+.bg span::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 500px;
+    box-shadow: -90px -90px 0 89.50px #000;
+}
