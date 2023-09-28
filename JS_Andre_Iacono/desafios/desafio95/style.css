@@ -28,7 +28,18 @@
             left: 0;
             position: absolute;
             top: -2cqi;
-            width: ;
+            width: 4cqi;
+            z-index: 1;
         }
     }
+}
+
+@keyframes move {
+    to {
+        left: 96cqi;
+    }
+}
+
+body {
+    
 }
