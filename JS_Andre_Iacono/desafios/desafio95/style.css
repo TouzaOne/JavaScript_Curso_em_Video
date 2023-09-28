@@ -1,0 +1,19 @@
+.circle {
+    aspect-ratio: 1;
+    background: #222;
+    border-radius: 50%;
+    container-type: inline-size;
+    display: grid;
+    height: 45vh;
+    margin-inline: auto;
+    place-content: center;
+
+    & i {
+        background-color: var(--_bg);
+        border-radius: 2cqi;
+        display: block;
+        grid-area: 1 / -1;
+        height: 1px;
+        rotate: ;
+    }
+}
