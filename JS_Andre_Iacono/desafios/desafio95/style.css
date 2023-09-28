@@ -18,7 +18,17 @@
         width: 100cqi;
 
         &::before {
-            
+            animation: move 4000ms ease-in-out infinite alternate;
+            animation-delay: var(--_del);
+            background-color: var(--_bg);
+            border-radius: 50%;
+            content: '';
+            height: 4cqi;
+            isolation: isolate;
+            left: 0;
+            position: absolute;
+            top: -2cqi;
+            width: ;
         }
     }
 }
