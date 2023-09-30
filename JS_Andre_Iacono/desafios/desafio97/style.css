@@ -1,3 +1,10 @@
 html, body {
-    
+    height: 100%;
 }
+
+body {
+    background: #082330;
+    background-size: 0.12em 100%;
+    font: 16em/1 Arial;
+}
+
