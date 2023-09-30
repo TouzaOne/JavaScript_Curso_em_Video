@@ -45,3 +45,8 @@ svg {
     stroke: #efeac5;
     stroke-dashoffset: 28%;
 }
+
+.text-copy:nth-child(5) {
+    stroke: #1b8798;
+    stroke-dashoffset: 35%;
+}
