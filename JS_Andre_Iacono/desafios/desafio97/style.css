@@ -18,3 +18,10 @@ svg {
     height: 100%;
 }
 
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 7% 28;
+    stroke-width: 3px;
+    animation: stroke-offset 9s infinite linear;
+}
