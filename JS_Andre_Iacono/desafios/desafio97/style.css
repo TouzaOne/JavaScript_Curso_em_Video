@@ -50,3 +50,10 @@ svg {
     stroke: #1b8798;
     stroke-dashoffset: 35%;
 }
+
+@keyframes stroke-offset {
+    50% {
+        stroke-dashoffset: 35%;
+        stroke-dasharray: 0 87.5%;
+    }
+}
