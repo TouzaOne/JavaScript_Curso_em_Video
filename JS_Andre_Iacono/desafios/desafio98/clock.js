@@ -15,4 +15,8 @@ function clock() {
     m = m<10 ? '0' +m: m;
     s = s<10 ? '0' +s: s;
 
+    document.getElementById('hours').innerHTML = h;
+    document.getElementById('min').innerHTML = m;
+    document.getElementById('sec').innerHTML = s;
+
 } var inter = setInterval(clock, 400);
