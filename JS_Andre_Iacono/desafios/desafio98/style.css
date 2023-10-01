@@ -23,6 +23,11 @@ body {
 #Date {
     font-size: 20px !important;
     text-align: center;
+    color: aqua;
+}
+
+#sec {
+    color: rgba(255, 0, 0, 0.507);
 }
 
 .clock ul {
