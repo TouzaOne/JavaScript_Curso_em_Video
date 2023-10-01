@@ -11,3 +11,11 @@ body {
     font: bold 12px Arial, Helvetica, sans-serif;
     background-color: black;
 }
+
+.clock {
+    border: 1px solid #606060;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: #222222;
+}
