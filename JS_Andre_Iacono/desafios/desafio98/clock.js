@@ -6,4 +6,11 @@ function clock() {
 
     document.getElementById('Date').innerHTML = (dayNames[today.getDay()] + " " + today.getDate() + ' ' + monthNames[today.getMonth()] + ' ' + today.getFullYear());
 
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    var day = h<11 ? 'AM': 'PM';
+
+    h = h<10 ?
+
 } var inter = setInterval(clock, 400);
