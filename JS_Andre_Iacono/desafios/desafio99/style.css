@@ -43,3 +43,8 @@ body {
     animation: loader 2s infinite linear;
 }
 
+.loader>div:nth-of-type(1),
+.loader>div:nth-of-type(5),
+.loader>div:nth-of-type(9) {
+    animation: ;
+}
