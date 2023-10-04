@@ -63,6 +63,10 @@ body {
     z-index: 10000;
 }
 
+.on .bulb, .on .bulb::before {
+    background: #fff;
+}
+
 .bulb span:nth-child(1) {
     position: absolute;
     top: -16px;
@@ -85,6 +89,10 @@ body {
     border-bottom-left-radius: 40px;
     transform: rotate(16.5deg);
     box-shadow: -20px 20px 0 10px #444;
+}
+
+.on .bulb span:nth-child(1) {
+    
 }
 
 .switch {
