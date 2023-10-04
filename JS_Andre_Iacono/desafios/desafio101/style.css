@@ -41,6 +41,15 @@ body {
     transform: rotate(90deg);
 }
 
+.on .bulb {
+    box-shadow: 0 0 50px #fff,
+    0 0 100px #fff,
+    0 0 150px #fff,
+    0 0 200px #fff,
+    0 0 300px #fff,
+    0 0 350px #fff;
+}
+
 .bulb::before {
     content: '';
     position: absolute;
