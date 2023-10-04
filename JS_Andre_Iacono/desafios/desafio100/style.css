@@ -7,3 +7,19 @@ body {
     background: #555;
 }
 
+.container {
+    width: 100%;
+    position: relative;
+}
+
+div {
+    font-family: cursive;
+    font-size: 100px;
+    font-weight: bolder;
+    text-align: center;
+    perspective: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
