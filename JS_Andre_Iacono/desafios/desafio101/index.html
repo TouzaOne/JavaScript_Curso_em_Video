@@ -13,5 +13,13 @@
             <div class="btn"></div>
         </div>
     </div>
+    <script>
+        let btn = document.querySelector('.btn');
+        let body = document.querySelector('body');
+
+        btn.onclick = function() {
+            body.classList.toggle('on')
+        }
+    </script>
 </body>
 </html>
