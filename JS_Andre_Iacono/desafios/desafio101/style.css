@@ -54,6 +54,18 @@ body {
     z-index: 10000;
 }
 
+.bulb span:nth-child(1) {
+    position: absolute;
+    top: -16px;
+    left: -4px;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border-bottom-right-radius: 40px;
+    transform: rotate(342deg);
+    box-shadow: 20px 20px 0 10px #444;
+}
+
 .switch {
     position: absolute;
     width: 80px;
