@@ -106,4 +106,13 @@ h2 {
         grid-template-columns: 200px 1fr;
         gap: 1rem;
     }
+    .starred {
+        margin-top: 0;
+    }
+}
+
+@media (width <=550px) {
+    .sidebar {
+        grid-template-columns: 1fr;
+    }
 }
