@@ -91,3 +91,19 @@ h2 {
 .item:has(:checked) {
     background: Highlight;
 }
+
+.item:has(.star) .title,
+.item:has(.star) .time {
+    font-weight: 800;
+}
+
+@media (width <=850px) {
+    .content {
+        grid-template-columns: 1fr;
+    }
+    .sidebar {
+        display: grid;
+        grid-template-columns: 200px 1fr;
+        gap: 1rem;
+    }
+}
