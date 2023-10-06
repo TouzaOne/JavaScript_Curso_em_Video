@@ -79,3 +79,15 @@ h2 {
     align-items: center;
 }
 
+[type="checkbox"] {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.item:has(.star) {
+    background: #eee;
+}
+
+.item:has(:checked) {
+    background: Highlight;
+}
