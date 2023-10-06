@@ -116,3 +116,12 @@ h2 {
         grid-template-columns: 1fr;
     }
 }
+
+.inbox {
+    container: inbox / inline-size;
+}
+
+.starred {
+    container: starred / inline-size;
+}
+
