@@ -89,7 +89,7 @@ h2 {
 }
 
 .item:has(:checked) {
-    background: Highlight;
+    background: rgb(253, 255, 105);
 }
 
 .item:has(.star) .title,
