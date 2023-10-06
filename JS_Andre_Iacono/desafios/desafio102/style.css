@@ -66,3 +66,16 @@ h2 {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+.content {
+    display: grid;
+    grid-template-columns: 300px 3fr;
+    gap: 2rem;
+}
+
+.context-area {
+    display: flex;
+    gap: 0.25rem;
+    align-items: center;
+}
+
