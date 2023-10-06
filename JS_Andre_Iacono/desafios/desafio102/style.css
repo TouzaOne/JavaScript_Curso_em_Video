@@ -43,3 +43,14 @@ h2 {
     border-top: none;
 }
 
+.bottom-bar {
+    display: flex;
+    justify-content: flex-end;
+    background: #eee;
+    padding: 1rem;
+    border-bottom: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    display: none;
+}
+
