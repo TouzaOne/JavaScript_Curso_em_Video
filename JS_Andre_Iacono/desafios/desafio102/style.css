@@ -126,7 +126,7 @@ h2 {
     container: starred / inline-size;
 }
 
-@media container (width <= 550px) {
+@media (width <= 550px) {
     .item {
         grid-template-colums: 3.5rem 1fr 4fr;
     }
