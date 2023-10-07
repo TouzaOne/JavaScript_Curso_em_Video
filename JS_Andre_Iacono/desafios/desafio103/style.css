@@ -1,0 +1,12 @@
+.checkmark {
+    width: 200px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.path {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 0;
+    animation: dash 2s ease-in-out;
+    -webkit-animation: dash 2s ease-in-out;
+}
