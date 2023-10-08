@@ -27,3 +27,16 @@ body {
         animation: fly 1000ms ease;
     }
 }
+
+@keyframes fly {
+    10% {
+        transform: translate(-10px, 10px);
+    }
+    40% {
+        transform: translate(-15px, 15px);
+        opacity: 1;
+    }
+    100% {
+        
+    }
+}
