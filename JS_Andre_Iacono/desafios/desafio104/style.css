@@ -4,3 +4,8 @@ html, body {
     height: 100%;
 }
 
+body {
+    margin: 0;
+    background-color: #00E7FF;
+    background: linear-gradient(45deg, #00E7FF, #00FF9C);
+}
