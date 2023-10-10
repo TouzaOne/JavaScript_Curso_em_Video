@@ -27,7 +27,7 @@ section {
     background: center/50% no-repeat;
     cursor: pointer;
     display: grid;
-    color: aqua;
+    color: red;
     font-size: calc(var(--itemWidth) / 7);
     grid-row: 2 / 3;
 }
