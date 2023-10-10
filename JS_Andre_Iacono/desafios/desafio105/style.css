@@ -5,3 +5,10 @@ body {
     justify-content: center;
 }
 
+section {
+    --itemWidth: min(300px, 30vw);
+    --itemWidthMinus: calc(-1 * var(--itemWidth));
+    height: max-content;
+    width: max-content;
+    font-family: 'Averia Serif Libre';
+}
