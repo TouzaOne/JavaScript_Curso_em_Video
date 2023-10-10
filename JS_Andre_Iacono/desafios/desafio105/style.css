@@ -12,3 +12,13 @@ section {
     width: max-content;
     font-family: 'Averia Serif Libre';
 }
+
+.item {
+    box-shadow: inset var(--itemWidthMinus) var(--itemWidth) 0 black,
+    inset var(--itemWidth) var(--itemWidthMinus) 0 green,
+    inset var(--itemWidth) var(--itemWidthMinus) 0 blue,
+    inset var(--itemWidth) var(--itemWidthMinus) 0 yellow,
+    0 0 20px silver;
+    transition: box-shadow ease-in-out .6s, color ease-in-out .5s;
+    
+}
