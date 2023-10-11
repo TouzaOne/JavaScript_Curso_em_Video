@@ -57,3 +57,10 @@ h1 {
     height: 1px;
     background: grey;
 }
+
+.task:hover .details {
+    max-height: none;
+    overflow: visible;
+    visibility: visible;
+    transform: rotateX(0deg);
+}
