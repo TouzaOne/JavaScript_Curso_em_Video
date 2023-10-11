@@ -35,3 +35,12 @@ div span:nth-child(3) {
     animation: ani-3 1s linear infinite;
 }
 
+@keyframes ani-1 {
+    from {
+        transform: rotateZ(120deg) rotateX(70deg) rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(120deg) rotateX(70deg) rotateZ(360deg);
+    }
+}
+
