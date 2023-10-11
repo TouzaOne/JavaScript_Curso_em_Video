@@ -52,3 +52,12 @@ div span:nth-child(3) {
         transform: rotateZ(240deg) rotateX(70deg) rotateZ(360deg);
     }
 }
+
+@keyframes ani-3 {
+    from {
+        transform: rotateZ(360deg) rotateX(70deg) rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(360deg) rotateX(70deg) rotateZ(360deg);
+    }
+}
