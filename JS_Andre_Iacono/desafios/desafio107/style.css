@@ -23,3 +23,6 @@ div span {
     border-right: 5px #fff solid;
 }
 
+div span:nth-child(1) {
+    animation: ani-1 1s linear infinite;
+}
