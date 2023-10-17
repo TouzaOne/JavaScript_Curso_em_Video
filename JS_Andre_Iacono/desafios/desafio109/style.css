@@ -40,4 +40,11 @@ body {
     cursor: pointer;
     transition: 0.5s;
     transform-origin: 50% 100%;
+    filter: hue-rotate(calc(var(--i) * 50deg));
 }
+
+.container:hover .card {
+    transform: rotate(calc(var(--i) * 5deg)) translate(calc(var(--i) * 120px), -50px);
+    color: rgba(0, 0, 0, 0.25);
+}
+
