@@ -12,3 +12,10 @@
     width: 100vw;
     background-color: #89c997;
 }
+
+.lemon {
+    background-color: #fff352;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px 3px;
+}
