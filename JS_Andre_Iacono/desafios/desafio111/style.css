@@ -22,8 +22,11 @@ body {
     pointer-events: none;
     user-select: none;
     opacity: 0;
+    transition: opacity 0.25s;
+    animation: animateColor 5s linear infinite;
 }
 
 body:hover .text {
     opacity: 1;
 }
+
