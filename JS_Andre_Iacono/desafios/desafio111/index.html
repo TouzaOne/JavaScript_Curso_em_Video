@@ -10,7 +10,12 @@
 <body>
     <h2 class="text">Circle - Text - Effects</h2>
     <script>
-        let text = 
+        let text = document.querySelector('.text');
+
+        document.addEventListener('mousemove', function(e) {
+            text.style.left = e.pageX + 'px';
+            text.style.top = e.pageY + 'px';
+        })
     </script>
 </body>
 </html>
