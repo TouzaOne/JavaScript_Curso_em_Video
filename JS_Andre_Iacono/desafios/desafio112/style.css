@@ -43,3 +43,13 @@
     top: 38px;
     left: 25px;
 }
+
+.shadow2 {
+    position: relative;
+    height: 30px;
+    width: 60px;
+    background: rgba(10, 188, 249, .5);
+    box-shadow: 0 0 6px #0abcf9;
+    border-radius: 100%;
+    top: -20px;
+}
