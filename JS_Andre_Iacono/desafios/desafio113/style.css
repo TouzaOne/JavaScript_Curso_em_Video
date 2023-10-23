@@ -48,3 +48,14 @@ header nav a {
     letter-spacing: 0.1em;
     font-weight: 400;
 }
+
+header nav #indicator {
+    position: absolute;
+    width: 85px;
+    height: 58px;
+    background: var(--clr);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    transition: 0.25s;
+}
+
