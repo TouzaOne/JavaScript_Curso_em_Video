@@ -26,3 +26,12 @@ header {
     align-items: center;
     z-index: 100000;
 }
+
+header .logo {
+    position: relative;
+    color: #fff;
+    font-size: 2em;
+    font-weight: 600;
+    text-decoration: none;
+}
+
