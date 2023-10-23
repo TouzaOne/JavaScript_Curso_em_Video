@@ -56,7 +56,7 @@ header nav #indicator {
     background: var(--clr);
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
-    transition: 0.25s;
+    transition: 0.5s;
 }
 
 header nav #indicator::before {
