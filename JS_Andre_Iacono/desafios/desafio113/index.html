@@ -27,6 +27,12 @@
             indicator.style.left = e.offsetLeft+"px";
             indicator.style.width = e.offsetWidth+"px";
         }
+
+        items.forEach(link => {
+            link.addEventListener('click', (e) => {
+                marker(e.target);
+            })
+        })
     </script>
 </body>
 </html>
