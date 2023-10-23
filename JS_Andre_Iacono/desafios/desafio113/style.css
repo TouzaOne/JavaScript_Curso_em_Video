@@ -14,3 +14,15 @@
 body {
     background: var(--clr);
 }
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #2196f3;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100000;
+}
