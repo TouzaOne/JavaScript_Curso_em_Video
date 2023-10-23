@@ -7,3 +7,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+:root {
+    --clr: #2c363f;
+}
+
+body {
+    background: var(--clr);
+}
