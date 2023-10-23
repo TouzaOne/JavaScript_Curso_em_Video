@@ -51,7 +51,7 @@ header nav a {
 
 header nav #indicator {
     position: absolute;
-    width: 85px;
+    width: 88px;
     height: 58px;
     background: var(--clr);
     border-top-right-radius: 20px;
@@ -69,4 +69,16 @@ header nav #indicator::before {
     background: transparent;
     border-bottom-right-radius: 20px;
     box-shadow: 5px 5px 0 5px var(--clr);
+}
+
+header nav #indicator::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: -30px;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border-bottom-left-radius: 20px;
+    box-shadow: -5px 5px 0 5px var(--clr);
 }
