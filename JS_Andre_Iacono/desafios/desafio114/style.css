@@ -8,3 +8,17 @@ body {
     background-color: #000;
 }
 
+p {
+    position: relative;
+    font-family: cursive;
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 3s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
