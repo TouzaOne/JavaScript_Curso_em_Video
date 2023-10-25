@@ -42,3 +42,7 @@ body {
     transition: 0.5s, top 0s, left 0s;
 }
 
+.container .card:hover::before {
+    opacity: 1;
+}
+
