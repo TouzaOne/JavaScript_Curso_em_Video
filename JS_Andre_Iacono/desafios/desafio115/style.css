@@ -12,3 +12,12 @@ body {
     background: #222;
 }
 
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
