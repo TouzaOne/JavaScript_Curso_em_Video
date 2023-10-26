@@ -31,3 +31,15 @@ a:nth-child(1) {
     animation: neon1 1.5s ease-in-out infinite alternate;
 }
 
+@keyframes neon1 {
+    from {
+        text-shadow: 0 0 10px #fff,
+                     0 0 20px #fff,
+                     0 0 30px #fff,
+                     0 0 40px #ff1177,
+                     0 0 70px #ff1177,
+                     0 0 80px #ff1177,
+                     0 0 100px #ff1177,
+                     0 0 150px #ff1177;
+    }
+    
