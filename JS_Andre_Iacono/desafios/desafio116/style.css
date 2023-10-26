@@ -15,3 +15,13 @@ body {
     flex-direction: column;
     gap: 4rem;
 }
+
+a {
+    text-align: center;
+    font-size: 6em;
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: 1;
+    text-decoration: none;
+    color: #fff;
+}
