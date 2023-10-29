@@ -16,5 +16,8 @@ body {
 }
 
 .accordion-content {
-    
+    background: #e5feff;
+    overflow: hidden;
+    max-height: 0;
 }
+
