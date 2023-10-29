@@ -11,7 +11,8 @@ body {
     width: 70%;
 }
 
-.accordion:hover .accordion-content {
+.accordion:hover 
+.accordion-content {
     max-width: 300px;
 }
 
