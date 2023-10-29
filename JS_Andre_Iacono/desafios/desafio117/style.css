@@ -10,3 +10,11 @@ body {
     margin: 1%;
     width: 70%;
 }
+
+.accordion:hover .accordion-content {
+    max-width: 300px;
+}
+
+.accordion-content {
+    
+}
