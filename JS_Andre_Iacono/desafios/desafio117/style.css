@@ -21,3 +21,7 @@ body {
     max-height: 0;
 }
 
+.accordion-inner {
+    padding: 0 15px;
+}
+
