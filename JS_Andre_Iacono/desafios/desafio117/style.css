@@ -4,3 +4,9 @@ body {
     text-align: center;
 }
 
+.accordion {
+    display: inline-block;
+    text-align: left;
+    margin: 1%;
+    width: 70%;
+}
