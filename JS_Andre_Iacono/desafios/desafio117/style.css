@@ -37,3 +37,6 @@ body {
     text-decoration: none;
 }
 
+.accordion-toggle:hover {
+    background: #00727d;
+}
