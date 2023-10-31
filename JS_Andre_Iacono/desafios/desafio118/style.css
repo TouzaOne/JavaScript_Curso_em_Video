@@ -15,3 +15,13 @@ body {
     transform: rotate(45deg);
 }
 
+.pin::after {
+    content: '';
+    width: 50px;
+    height: 50px;
+    background: #222;
+    position: absolute;
+    left: 26%;
+    top: 26%;
+    border-radius: 60px;
+}
