@@ -6,3 +6,12 @@ body {
     background: #222;
 }
 
+.pin {
+    width: 100px;
+    height: 100px;
+    background-color: #a55eea;
+    border-radius: 60px 60px 0px 60px;
+    position: relative;
+    transform: rotate(45deg);
+}
+
