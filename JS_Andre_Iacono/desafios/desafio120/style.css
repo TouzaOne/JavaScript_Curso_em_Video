@@ -11,3 +11,14 @@ body {
     min-height: 100vh;
     background: #222;
 }
+
+.container {
+    display: grid;
+}
+
+.container .card {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background: rgba(45, 45, 45, 1);
+}
