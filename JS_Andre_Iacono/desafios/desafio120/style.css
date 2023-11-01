@@ -14,6 +14,8 @@ body {
 
 .container {
     display: grid;
+    grid-template-columns: repeat(4, 150px);
+    grid-gap: 10px;
 }
 
 .container .card {
@@ -21,4 +23,5 @@ body {
     width: 150px;
     height: 150px;
     background: rgba(45, 45, 45, 1);
+    overflow: hidden;
 }
