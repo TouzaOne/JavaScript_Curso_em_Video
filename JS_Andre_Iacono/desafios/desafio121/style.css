@@ -48,3 +48,7 @@ body {
 .circle::after {
     transform: rotate(45deg);
 }
+
+.circle:hover::before, .circle:hover::after {
+    box-shadow: inset 0.86em 0 0 #ff000080, ;
+}
