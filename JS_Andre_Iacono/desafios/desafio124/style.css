@@ -17,3 +17,8 @@ body {
     justify-content: center;
     gap: 10px;
 }
+
+.circle {
+    height: 150px;
+    width: 150px;
+}
