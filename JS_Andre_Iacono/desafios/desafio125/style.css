@@ -7,3 +7,8 @@
     --light-shadow: #77571d;
     --dark-shadow: #3e2904;
 }
+
+body {
+    margin: 0;    
+}
+
