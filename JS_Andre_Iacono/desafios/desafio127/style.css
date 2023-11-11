@@ -38,4 +38,11 @@ h1 span {
     color: #Fd4;
 }
 
-div.stars
+div.stars {
+    width: 270px;
+    display: inline-block;
+}
+
+input.star {
+    display: none;
+}
