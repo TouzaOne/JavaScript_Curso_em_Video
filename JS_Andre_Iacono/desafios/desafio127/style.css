@@ -56,8 +56,8 @@ label.star {
 }
 
 input.star:checked~label.star::before {
-    content: '005';
-    color: #Fd4;
+    content: '⭐';
+    color: #FD4;
     transition: all .25s;
 }
 
@@ -75,6 +75,6 @@ label.star:hover {
 }
 
 label.star::before {
-    content: '006';
+    content: '⭐';
     font-family: FontAwesome;
 }
