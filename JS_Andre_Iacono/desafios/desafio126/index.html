@@ -12,7 +12,10 @@
 <body>
     <script>
         RGBA(`vec2 uv = gl_FragCoord.xy/resolution - 0.5;uv.x *= resolution.x/resolution.y;
-        if (uv.x))
+        if (uv.x > 0.0) uv.y = -uv.y;
+        
+        float r = 0.05*cos(2.0*atan(uv.y, uv.x));
+        float d = )
     </script>
 </body>
 </html>
