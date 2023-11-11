@@ -15,7 +15,12 @@
         if (uv.x > 0.0) uv.y = -uv.y;
         
         float r = 0.05*cos(2.0*atan(uv.y, uv.x));
-        float d = )
+        float d = dot(uv, uv);
+        float s = 0.0003/sqrt(d);
+        float c = 1.0 - smoothstep(r, r+s, d)
+        - smoothstep(r, r-s, d);
+        
+        gl_FragCol)
     </script>
 </body>
 </html>
