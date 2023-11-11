@@ -28,3 +28,14 @@ hr {
     border: none;
     border-bottom: thin solid rgba(255, 255, 255, .1);
 }
+
+div.title {
+    font-size: 2em;
+}
+
+h1 span {
+    font-weight: 300;
+    color: #Fd4;
+}
+
+div.stars
