@@ -37,3 +37,12 @@
     background: #432bb3;
     animation-delay: 0.4s;
 }
+
+@keyframes blub {
+    0% {
+        opacity: 0.5;
+        transform: scale(.8);
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    }
+    
+}
