@@ -13,3 +13,10 @@
     transform: scale(.8);
     animation: blub 1.5s ease-in-out infinite;
 }
+
+.blub-1 {
+    background: #7d69db;
+    width: 150px;
+    height: 150px;
+}
+
