@@ -28,3 +28,12 @@
     background: #4f34ce;
     animation-delay: 0.2s;
 }
+
+.blub-3 {
+    top: calc(30px);
+    left: calc(30px);
+    width: calc(90px);
+    height: calc(90px);
+    background: #432bb3;
+    animation-delay: 0.4s;
+}
