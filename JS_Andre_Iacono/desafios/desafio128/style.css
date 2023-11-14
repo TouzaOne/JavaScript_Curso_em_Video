@@ -20,3 +20,11 @@
     height: 150px;
 }
 
+.blub-2 {
+    top: calc(15px);
+    left: calc(15px);
+    width: calc(120px);
+    height: calc(120px);
+    background: #4f34ce;
+    animation-delay: 0.2s;
+}
