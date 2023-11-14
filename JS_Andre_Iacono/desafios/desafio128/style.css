@@ -4,3 +4,12 @@
     width: 150px;
     height: 150px;
 }
+
+.blub-1,.blub-2,.blub-3 {
+    position: absolute;
+    border-radius: 50%;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+    opacity: 0.5;
+    transform: scale(.8);
+    animation: blub 1.5s ease-in-out infinite;
+}
