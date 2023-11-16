@@ -11,3 +11,15 @@ body {
     min-height: 100vh;
     background: #1f1f1f;
 }
+
+.colors {
+    position: relative;
+    padding: 30px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #28292b;
+    box-sizing: 0 10px 30px rgba(0,0,0,0.25);
+    border-radius: 10px;
+}
