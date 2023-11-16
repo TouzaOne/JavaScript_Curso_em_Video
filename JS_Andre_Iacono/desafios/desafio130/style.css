@@ -33,3 +33,15 @@ body {
     margin: 20px;
     cursor: pointer;
 }
+
+.colors span::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background: var(--clr);
+    border-radius: 20px;
+    transition: 0.5s;
+    scale: 0.8;
+}
