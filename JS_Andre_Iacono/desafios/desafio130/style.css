@@ -68,5 +68,7 @@ body {
     left: 30px;
     opacity: 1;
     scale: 1.25;
-    box-shadow: 0 0 10px var(--clr);
+    box-shadow: 0 0 10px var(--clr),
+    0 0 20px var(--clr),
+    0 0 50px var(--clr);
 }
