@@ -1,8 +1,8 @@
 .outer {
-    background: blue;
-    margin: 50px;
+    background: gray;
+    margin: 150px;
     padding: 6px;
-    display: inline-block;
+    display: inline-block;    
     clip-path: polygon(0 70px, 100% 0, 100% 100%, 0 100%);
 }
 
