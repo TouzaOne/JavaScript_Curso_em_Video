@@ -30,3 +30,10 @@ p {
     --wgth-min: 32;
     --wght-max: 240;
 }
+
+p>span {
+    animation: breath 1.5s alternate ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+}
