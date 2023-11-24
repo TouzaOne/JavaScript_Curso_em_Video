@@ -1,0 +1,12 @@
+button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    appearance: none;
+    border: 0;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    font-family: inherit;
+    font-weight: 500;
+}
